@@ -1,0 +1,41 @@
+{% extends "navigation.html" %}
+{% load filter %}
+{% block main %}
+
+<div class="row">
+    <div class="col-md-4">
+        <p># of tags: <em>{{ tags_page.paginator.count }}</em></p>
+
+        <form action="/tag/" method="get">
+            {% csrf_token %}
+            <table class="table table-condensed">
+                {{ form.as_table }}
+                <tr>
+                    <td><input type="submit" class="btn btn-primary" value="Search"></td>
+                    <td><a href="/tag/" class="btn btn-secondary">Reset</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div class="col-md-8">
+        <h3>Tags</h3>
+        <table class="table table-striped table-condensed">
+            <tr>
+                <th>Name</th>
+                <th>Slug</th>
+            </tr>
+            {% for t in pagelist %}
+            <tr>
+                <td><a href="/tag/{{t.id}}/">{{t.name}}</a></td>
+                <td>{{t.slug}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        {% include "web/pagination-nav.html" %}      
+
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,181 @@
+body {
+    padding-top: 5rem;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+thead th {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 40px;
+    background: white;
+    z-index: 10;
+}
+
+
+.timeline {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline .timeline-item ul {
+    list-style-type: none;
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+
+.timeline .timeline-item {
+    border-left: 1px solid lightgrey;
+    position: relative;
+    left: 13px;
+}
+
+.timeline .timeline-item::before {
+    width: 26px;
+    height: 26px;
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    left: -13px;
+    border: 3px solid deepskyblue;
+    background-color: white;
+    vertical-align: top;
+}
+
+.timeline .timeline-item-content {
+    display: inline-block;
+}
+
+.timeline .timeline-header {
+    display: inline-block;
+    vertical-align: top;
+    color: deepskyblue;
+    font-weight: lighter;
+}
+
+
+.timeline .timeline-created::before {
+    width: 22px;
+    height: 22px;
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    left: 2px;
+    background-color: lightgrey;
+}
+
+.mathem_changed {
+    color: red;
+}
+.original {
+    color: green;
+}
+
+.productdata-list tbody tr img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.product-data-details .image-list img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+.panel {
+    padding-left: 30px;
+    padding-top:30px;
+    border-bottom-color: #dee2e6;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-top-color: #dee2e6;
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+
+.static-image-size-large {
+    max-width: 500px;
+    max-height: 500px;
+}
+.static-image-size-medium {
+    max-width: 170px;
+    max-height: 170px;
+}
+.static-image-size-small {
+    max-width: 100px;
+    max-height: 100px;
+}
+.static-image-size-mini {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.product-view .image-list img {
+    max-width: 100%;
+    max-height: 250px;
+}
+
+.image-zoom {
+    width: 170px;
+    height: 170px;
+}
+
+.helptext {
+    color: grey;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 80%;
+}
+
+.text-logo {
+    margin-top: -12rem;
+    position: relative;
+    height: 12rem;
+    width: 12rem;
+    font-family: 'Heebo', sans-serif;
+    font-size: 64px;
+}
+
+.text-logo-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12rem;
+    height: 12rem;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+.text-logo-text {
+    line-height: 12rem;
+    width: 12rem;
+    text-align: center;
+    color: white;
+}
+
+.body-login {
+    height: 100vh;
+    background: url('/images/warehouse.jpg') no-repeat scroll 0px 100% / cover transparent;
+}
+
+.body-login main, .body-login .row {
+    height: 100%;
+}
+
+.login-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box .login-button-holder {
+    margin-top: 2rem;
+    width: 12rem;
+    text-align: center;
+}

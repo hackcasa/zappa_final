@@ -1,0 +1,41 @@
+{% extends "navigation.html" %}
+{% load filter %}
+{% block main %}
+<div class="row">
+    <div class="col-md-6">
+        <form class="form" method="post" action="/product/edit/{{ product.article.gtin }}/">
+            <table class="table table-condensed">
+                {% csrf_token %}
+                {% for field in form %}
+                <tr>
+                    <th>
+                        <label for="id_{{ field.name }}">{{ field.label }}:</label>
+                    </th>
+                    <td>
+                        {{ field }}
+                    </td>
+                    <td>
+                        {% if field|is_text_field and product.article|get_attribute:field.name %}
+                        <button class="btn btn-secondary d-inline-block form-copy-default"
+                                type="button"
+                                data-source="#preview_{{ field.name }}"
+                                data-target="#id_{{ field.name }}">&lt;</button>
+                        <p id="preview_{{ field.name }}" class="text-muted font-italic">
+                            {{ product.article|get_attribute:field.name }}
+                        </p>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td>
+                        <input type="submit" class="submit" value="Save">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+{% endblock %}

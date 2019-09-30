@@ -1,0 +1,154 @@
+{% extends "navigation.html" %}
+{% load filter %}
+
+{% block main %}
+
+<div class="row">
+    <div class="col-12">
+        <h1>Article {{ article.name }} ({{article.gtin}})</h1>
+    </div>
+
+    <div class="col-md-8">
+        <h2 class="d-inline-block">Data</h2>
+        <a href="/article/edit/{{ article.gtin }}/">Edit</a>
+        <table class="table table-striped">
+            <tr>
+                <td>GTIN</td>
+                <td>{{article.gtin}}</td>
+            </tr>
+            <tr>
+                <td>Child GTIN</td>
+                <td>{{child_label|safe}}</td>
+            </tr>
+            {{ article|as_table:"gtin,child_gtin,allergens,allergen_statement" }}
+            <tr>
+                <td>Allergen statement</td>
+                <td>{{article.allergen_statement}}</td>
+            </tr>
+        </table>
+
+        {% if article.consumer_unit %}
+        <h2>Validation</h2>
+        <table class="table table-striped">
+            <tr>
+                <td>Image:</td>
+                <td class="text-{{ article.articleimage_set.count|yesno:'success,danger' }}">
+                    <i class="material-icons">{{ article.articleimage_set.count|yesno:'check,close' }}</i></td>
+            </tr>
+            <tr>
+                <td>Measurements:</td>
+                {% if article.weight_g == 0 or article.height_mm == 0 or article.length_mm == 0 or article.width_mm == 0 or article.volume_dm3 == 0 %}
+                <td class="text-danger">
+                    <i class="material-icons">close</i>
+                </td>
+                {% else %}
+                <td class="text-success">
+                    <i class="material-icons">check</i>
+                </td>
+                {% endif %}
+            </tr>
+            <tr>
+                <td>Name:</td>
+                {% if article.name == '' %}
+                <td class="text-danger">
+                    <i class="material-icons">close</i>
+                </td>
+                {% else %}
+                <td class="text-success">
+                    <i class="material-icons">check</i>
+                </td>
+                {% endif %}
+            </tr>
+            <tr>
+                <td>Brand:</td>
+                {% if article.brand_name == '' %}
+                <td class="text-danger">
+                    <i class="material-icons">close</i>
+                </td>
+                {% else %}
+                <td class="text-success">
+                    <i class="material-icons">check</i>
+                </td>
+                {% endif %}
+            </tr>
+            <tr>
+                <td>VAT:</td>
+                {% if article.vat in article.vats %}
+                <td class="text-danger">
+                    <i class="material-icons">close</i>
+                </td>
+                {% else %}
+                <td class="text-success">
+                    <i class="material-icons">check</i>
+                </td>
+                {% endif %}
+            </tr>
+        </table>
+        {% endif %}
+
+        <a href="/article/history/{{ article.gtin }}">History</a>
+    </div>
+    <div class="col-md-4">
+        <div class="related">
+            <h2>Related</h2>
+            <table class="table table-striped">
+                <tr>
+                    <th>GTIN</th>
+                    <th>Type</th>
+                </tr>
+
+                {% for rel in related %}
+                <tr>
+                    <td><a href="/article/{{ rel.gtin }}">{{ rel.gtin }}</a></td>
+                    <td>{{ rel.descriptor_code }}</td>
+                </tr>
+                {% endfor %}
+
+            </table>
+        </div>
+
+
+        <div class="images">
+            <h2>Images</h2>
+            <ul class="list-group list-group-flush image-list">
+                {% for image in article.articleimage_set.all %}
+                <li class="list-group-item">
+                    <div class="col-md-6 float-left">
+                        {{image|image_or_default}}
+                    </div>
+                    <div class="col-md-6 float-left">
+                        <table class="table table-striped">
+                            {{image|as_table:"article_id,creation_date,gtin"}}
+                        </table>
+                        <a href="/article-image/history/{{ image.id }}">History</a>
+                    </div>
+                </li>
+                {% empty %}
+                <li class="list-group-item">
+                    <p class="font-italic text-muted">No images</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+
+        <div class="allergens">
+            <h2 class="d-inline-block">Allergens</h2>
+            <a href="/article/allergens/edit/{{ article.gtin }}/">Edit</a>
+
+            <ul class="list-group list-group-flush image-list">
+                {% for allergen in article.allergens %}
+                <li class="list-group-item">
+                    {{ allergen|allergen_text }}
+                </li>
+                {% empty %}
+                <li class="list-group-item">
+                    <p class="font-italic text-muted">No allergens</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "navigation.html" %}
+
+{% block main %}
+<div class="row">
+    <div class="col-12">
+        <h4>Details for
+            <i>{{ form.instance.product.name|default:form.instance.product.article.name }}</i>
+            in
+            <i>{{ form.instance.get_store_display }}</i>
+        </h4>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <form class="form" method="post" action="{% url 'product_detail_edit' id=form.instance.id %}">
+            {% csrf_token %}
+
+            <table class="table table-condensed">
+                {{ form.as_table }}
+            </table>
+
+            <input type="submit" class="btn btn-primary" value="Save">
+        </form>
+    </div>
+</div>
+{% endblock %}

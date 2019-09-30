@@ -1,0 +1,2235 @@
+TagID,TagName,categoryname,categoryid
+1,Pålägg,"Skinka pålägg",66
+1,Pålägg,"Kokt Skinka",1388
+1,Pålägg,"Chorizo Pålägg",3733
+1,Pålägg,"Grillad Kyckling Pålägg",3737
+1,Pålägg,"Kalkon Pålägg",3734
+1,Pålägg,"Rostbiff Pålägg",3736
+1,Pålägg,"Övriga Pålägg",3328
+1,Pålägg,Hårdost,3059
+1,Pålägg,"Mesost & Messmör",3061
+1,Pålägg,Färskost,2754
+1,Pålägg,Mjukost,514
+1,Pålägg,"Mjukost Smaksatt",2798
+1,Pålägg,Tubost,2797
+1,Pålägg,"Skivad Ost",3919
+1,Pålägg,"Kalkon Rökt",2165
+1,Pålägg,Leverpastej,2779
+1,Pålägg,Kaviar,538
+1,Pålägg,Marmelad,257
+1,Pålägg,Nötsmör,1082
+1,Pålägg,"Salami pålägg",119
+1,Pålägg,"Rökt Skinka",762
+1,Pålägg,Serranoskinka,765
+1,Pålägg,Grevéost,679
+1,Pålägg,Herrgårdsost,565
+1,Pålägg,Hushållsost,563
+1,Pålägg,Goudaost,94
+1,Pålägg,Emmentalerost,422
+1,Pålägg,"Edamerost Skivad",4302
+1,Pålägg,Edamerost,141
+1,Pålägg,"Prästost Lagrad",4304
+1,Pålägg,Prästost,61
+1,Pålägg,Stureost,130
+1,Pålägg,Sveciaost,93
+1,Pålägg,Västerbottenost,146
+1,Pålägg,"Pastejer Övriga Sorter",1245
+3,Skinka,"Kokt Skinka",1388
+3,Skinka,"Rökt Skinka",762
+4,clementin,Småcitrus,3230
+4,clementin,"Mandariner i Fruktkonserver",980
+5,mandarin,Småcitrus,3230
+7,satsumas,Småcitrus,3230
+8,morötter,Morötter,175
+8,morötter,"Vanliga morötter",3767
+8,morötter,"Frysta Morötter",3769
+8,morötter,"Morötter i Knippe",4226
+12,bananer,Banan,164
+17,köttfärs,Köttfärs,449
+17,köttfärs,"Köttfärs - Nöt",848
+17,köttfärs,"Köttfärs - Bland",2162
+24,havremjölk,"Havre-, Soja-, Mandel-, Hasselnöts- & Risdryck",511
+24,havremjölk,"Havredryck Naturell",3358
+24,havremjölk,"Havredryck Smaksatt",3359
+28,rädisor,Rädisor,633
+29,joghurt,Yoghurt,245
+32,youghurt,Yoghurt,245
+33,yohurt,Yoghurt,245
+34,yoghurt,Yoghurt,245
+34,yoghurt,"Yoghurt Smaksatt",267
+36,butiksbakat,Bageribröd,5374
+37,vindruvor,Vindruvor,605
+38,isbergssallad,Isbergssallat,791
+39,isbergssallat,Isbergssallat,791
+40,sallad,Sallat,165
+41,sallat,Salladsmix,2197
+41,sallat,Sallat,165
+42,Vårlök,Salladslök,2190
+50,Blöja,Pampers,3937
+50,Blöja,"New Baby",4336
+50,Blöja,"Baby Dry",4337
+50,Blöja,"Easy Up",4339
+50,Blöja,"Active Fit",4335
+51,Blöjor,Pampers,3937
+51,Blöjor,"New Baby",4336
+51,Blöjor,"Baby Dry",4337
+51,Blöjor,"Easy Up",4339
+51,Blöjor,"Active Fit",4335
+52,spagetti,Spaghetti,1453
+53,spaggetti,Spaghetti,1453
+56,spageti,Spaghetti,1453
+59,leverpastej,Leverpastej,2779
+59,leverpastej,"Pastejer Övriga Sorter",1245
+63,toalettborste,Toaborste,3987
+69,barn,Lösviktsgodis,4570
+83,kyckling,Kyckling,189
+83,kyckling,Pärlhöna,4313
+84,Choklad,Chokladkakor,250
+84,Choklad,"Chokladkaka Ljus",4034
+84,Choklad,Stycksaker,283
+105,engångsglas,Engångsglas/bägare,4289
+108,Flingsalt,Flingsalt,1944
+112,kött,Köttfärs,449
+112,kött,Lamm,82
+112,kött,Nötkött,117
+112,kött,Fläskfile,843
+112,kött,Viltkött,3299
+112,kött,"Fläskkarré Skivor",917
+112,kött,Fläskkotlett,845
+112,kött,"Grytbitar Fläsk",3027
+112,kött,Revbensspjäll,846
+112,kött,Skinkstek,3028
+112,kött,"Köttfärs - Nöt",848
+113,bröd,Bröd,3807
+114,Fruktdryck,Juice,231
+118,pasta,"Pasta & Pastasås",304
+121,glass,Glass,24
+121,glass,Äppelsorbet,4479
+121,glass,Pepparkaksglass,4477
+123,Grillkorv,Grillkorv,709
+125,"Grönt te","Grönt te",1363
+133,Karamellfärg,"Hushållsfärg Blå",3783
+133,Karamellfärg,"Hushållsfärg Grön",3043
+133,Karamellfärg,"Hushållsfärg Gul",3044
+133,Karamellfärg,"Hushållsfärg Röd",3045
+141,"Japansk soya","Japansk soja",1362
+142,jucie,Juice,231
+143,juice,Juice,231
+143,juice,"Övrig juice",982
+162,tvättmedel,Kulörtvätt,1211
+177,majonäs,Majonnäs,342
+191,Mozarella,Mozzarellaost,320
+192,Mosarella,Mozzarellaost,320
+195,Müsli,Müsli,1787
+196,Musli,Müsli,1787
+227,mjukost,Tubost,2797
+227,mjukost,"Mjukost Smaksatt",2798
+229,"snabb kaffe",Snabbkaffe,1001
+239,"sötsur sås","Sweet Chilisås",4186
+243,"tomat ketchup",Tomatketchup,328
+252,våtservetter,Tvättservetter,4292
+331,bulle,"Kanelsnäckor & Kanelbullar",1980
+334,wienerbröd,Wienerbröd,3113
+335,rödlök,Rödlök,792
+343,"Färska kryddor","Örter & Smaksättare",4779
+357,tvättservett,Tvättservetter,4292
+372,deoderant,Deodorant,988
+377,Risnudlar,Risnudlar,2801
+383,folköl,"Öl över 2,8%",59
+384,tandkräm,Barntandkräm,4298
+385,krydda,Paprikakrydda,1275
+386,kryddor,"Örter & Smaksättare",4779
+393,sojadryck,"Havre-, Soja-, Mandel-, Hasselnöts- & Risdryck",511
+463,kantareller,"Trattkantareller Torkade",2969
+467,digistive,Digestive,1133
+468,avfallspåse,Avfallspåsar,3986
+469,bajspåse,Hundbajspåse,3881
+470,rotselleri,Rotselleri,2856
+477,hamburgare,"Amerikansk Dressing",1503
+479,jos,Juice,231
+479,jos,"Övrig juice",982
+485,bagette,"Baguette Fullkorn/Fiber",3112
+485,bagette,"Baguette Halv",4005
+485,bagette,"Baguette Hel",4001
+485,bagette,"Baguette Mini",2984
+485,bagette,Vitlöksbaguette,3111
+486,tops,Bomullspinnar,280
+487,Smör,"Bordsask Smör",3378
+487,Smör,"Mat & Bak Smör",423
+487,Smör,"Flytande Smör",3376
+489,kaffe,Kaffe,45
+498,dipp,Dip,476
+498,dipp,Dipmix,1132
+499,yogurt,Yoghurt,245
+506,plastpåse,Fryspåsar,3341
+506,plastpåse,Plastpåsar,1068
+508,Glutenfritt,"Glutenfri mix",535
+508,Glutenfritt,"Glutenfria Flakes",4127
+508,Glutenfritt,Guarkärnmjöl,4947
+508,Glutenfritt,Linsmjöl,4950
+508,Glutenfritt,Gulärtsmjöl,4953
+509,färskpasta,"Gnocchi Färsk",3026
+509,färskpasta,"Tagliatelle Färsk",2715
+509,färskpasta,"Tagolini Färsk",2327
+509,färskpasta,"Färsk pasta",3052
+512,hårdost,Hårdost,3059
+512,hårdost,"Prästost Lagrad",4304
+513,hårdbröd,Knäckebröd,349
+514,soja,"Soyabaserad gräddersättning",4468
+514,soja,"Övrig soja",4179
+514,soja,"Japansk soja",1362
+514,soja,"Kinesisk soja",2928
+514,soja,Tamarisoja,2842
+515,soya,"Soyabaserad gräddersättning",4468
+515,soya,"Övrig soja",4179
+515,soya,"Japansk soja",1362
+515,soya,Tamarisoja,2842
+515,soya,Soja,5581
+516,jordnötssmör,Jordnötssmör,1344
+527,marmelad,Marmelad,257
+528,matlagningsgrädde,"Växtbaserad gräddersättning",4466
+533,bubbelvatten,Mineralvatten,251
+540,saft,"Saft Fläder",3194
+545,hotdog,Grillkorv,709
+610,aluminiumfolie,Aluminiumfolie,1320
+616,"pytt i panna",Pytt,1539
+618,"riven ost","Riven Ost",3064
+626,ruccola,Ruccolasallat,2045
+636,vindruva,Vindruvor,605
+637,äpplen,Äpplen,163
+640,avokado,Avokado,161
+641,rismjölk,"Havre-, Soja-, Mandel-, Hasselnöts- & Risdryck",511
+643,jogurt,Yoghurt,245
+648,parmesan,"Parmesan, Pecorino & Grana Padano",64
+648,parmesan,"Riven Parmesanost",2891
+2709,matjessill,Matjessill,510
+2711,"färsk pasta","Lasagneplattor Färska",2951
+2711,"färsk pasta","Gnocchi Färsk",3026
+2711,"färsk pasta","Tortellini Färsk",2714
+2711,"färsk pasta","Fettuccini Färsk",2952
+2711,"färsk pasta","Tagliatelle Färsk",2715
+2711,"färsk pasta","Tagolini Färsk",2327
+2711,"färsk pasta","Färsk pasta",3052
+2712,tortellini,"Tortellini Prosciutto",4004
+2712,tortellini,"Tortellini Färsk",2714
+2712,tortellini,"Tortellini Ost",2956
+2715,barnolja,Barnvård,3909
+2723,isbergsallad,Isbergssallat,791
+2726,"Havre fras",Havrekuddar,4121
+2728,disktrasa,Diskduk,3965
+2731,gullök,"Gul lök",828
+2732,"röd lök",Rödlök,792
+2733,shalottenlök,Schalottenlök,2187
+2737,våtservett,Tvättservetter,4292
+2742,fefferoni,Feferoni,3953
+2751,apelsin,Apelsin,718
+2752,dryck,Juice,231
+2758,yougurt,Yoghurt,245
+2760,chocklad,Chokladkakor,250
+2768,roller,Klädvårdsrulle,3740
+2777,matkasse,"Monikas Julkasse",4291
+2777,matkasse,"Ekologisk matkasse 5 dagar",3985
+2777,matkasse,"Familjekasse 3 dagar",3901
+2777,matkasse,"Ekologisk matkasse 3 dagar",4377
+2777,matkasse,"Tastelines Laktosfria Barnkasse",5472
+2777,matkasse,"Inspirationskasse 2 Personer",5766
+2785,glutenfri,"Glutenfri mix",535
+2785,glutenfri,"Glutenfria Flakes",4127
+2785,glutenfri,Guarkärnmjöl,4947
+2785,glutenfri,Linsmjöl,4950
+2785,glutenfri,Gulärtsmjöl,4953
+2788,kycklingfile,Kycklingfile,957
+2791,beer,Öl,3209
+2791,beer,"Öl över 2,8%",59
+2792,parmaskinka,Prosciutto,874
+2792,parmaskinka,Serranoskinka,765
+2792,parmaskinka,Getmjölk,4248
+2793,proiscutto,Prosciutto,874
+2793,proiscutto,Getmjölk,4248
+2794,serrano,Prosciutto,874
+2794,serrano,Getmjölk,4248
+2795,Prosciutto,Serranoskinka,765
+2796,lufttorkad,Serranoskinka,765
+2797,serano,Serranoskinka,765
+2798,seranno,Serranoskinka,765
+2800,gladpack,Plastfolie,1066
+2801,plastfilm,Plastfolie,1066
+2802,avfallspåsar,Avfallspåsar,3986
+2803,soppåsar,Avfallspåsar,3986
+2804,rostbröd,"Formfranska & Toast",1766
+2804,rostbröd,"Toast & Rostbröd",3136
+2805,disktrasor,Diskduk,3965
+2806,maskindiskmedel,Maskindiskmedel,2896
+2807,formbröd,Formfranska,3135
+2808,zuccini,Zucchini,166
+2808,zuccini,Squash,3496
+2809,squach,Zucchini,166
+2809,squach,Squash,3496
+2810,squash,Zucchini,166
+2811,zuchini,Zucchini,166
+2812,digestivekex,Digestive,1133
+2813,kycklingkorv,Kycklinggrillkorv,2168
+2814,sojamjölk,"Sojadryck Naturell",3779
+2815,mangochutney,"Mango Chutney",1123
+2816,"mango chutney","Mango Chutney",1123
+2817,"vitaminer ","Vitaminer & Mineraler",363
+2818,"creme freish","Creme Fraiche",2903
+2819,cremefraiche,"Creme Fraiche",2903
+2820,"creme fräch","Creme Fraiche",2903
+2821,"creme fraise","Creme Fraiche",2903
+2824,mandel,Mandlar,1233
+2825,citroner,Citron,731
+2826,mjök,Mjölk,374
+2827,vaniljglass,Vaniljglass,275
+2828,soyadryck,"Havre-, Soja-, Mandel-, Hasselnöts- & Risdryck",511
+2829,soyamjölk,"Havre-, Soja-, Mandel-, Hasselnöts- & Risdryck",511
+2830,klementin,Småcitrus,3230
+2831,hoisin,"Hoi Sin Sauce",2489
+2833,dajm,Daim,2860
+2834,måltidsdryck,"Måltidsdryck - koncentrat",1165
+2835,libro,Libero,3938
+2836,salcc,Salsiccia,2880
+2837,kryddnejlikor,Kryddnejlikor,2179
+2837,kryddnejlikor,Nejlikor,1818
+2838,kryddnejlika,Nejlikor,1818
+2838,kryddnejlika,Kryddnejlikor,2179
+2839,hälsokost,"Hälsa & Träning",3831
+2840,vörtbröd,Vörtbröd,3832
+2840,vörtbröd,Julvört,3872
+2841,julvört,Julvört,3872
+2841,julvört,Vörtbröd,3832
+2842,glödlampa,Lågenergilampor,2995
+2842,glödlampa,Glödlampor,2991
+2843,glödlampor,Lågenergilampor,2995
+2844,lågenergilampor,Lågenergilampor,2995
+2845,mandlar,"Sötmandel Naturell",2948
+2845,mandlar,Mandlar,1233
+2846,"Hårt bröd",Knäckebröd,349
+2847,Hårtbröd,Knäckebröd,349
+2854,clementiner,Småcitrus,3230
+2855,mandariner,Småcitrus,3230
+2856,anjovis,Ansjovis,537
+2856,anjovis,Ansjovisfiléer,2127
+2857,vört,Vörtbröd,3832
+2859,julbröd,Vörtbröd,3832
+2859,julbröd,Julvört,3872
+2860,jullimpa,Julvört,3872
+2861,nonstop,"Godispåse - Choklad",50
+2862,"non stop","Godispåse - Choklad",50
+2866,revbenspjäll,Revbensspjäll,846
+2867,ribs,Revbensspjäll,846
+2868,revben,Revbensspjäll,846
+2869,spjäll,Revbensspjäll,846
+2870,"gröna ärtor","Gröna Ärtor",3273
+2871,ärtor,"Gröna Ärtor",3273
+2872,vin,"Alkoholfritt vin",4378
+2872,vin,"Vin från Winefinder",5849
+2873,rödvin,"Rött vin",5852
+2876,keso,"Cottage cheese Naturell",518
+2876,keso,"Cottage cheese & kvarg",3816
+2876,keso,"Cottage cheese Smaksatt",2905
+2901,chili,"Spansk Peppar",4075
+2902,chilli,"Spansk Peppar",4075
+2903,"färsk chili",Chilifrukter,3009
+2907,nöt,Köttfärs,449
+2907,nöt,"Köttfärs - Nöt",848
+2910,pekannötter,Pecannötter,2939
+2911,potatis,Potatis,46
+2911,potatis,"Potatis Fast",834
+2912,ägg,Ägg,107
+2913,juic,Juice,231
+2914,köttlådor,Köttlådor,4040
+2915,nötkött,Nötkött,117
+2916,banan,Köttfärs,449
+2917,sukini,Zucchini,166
+2928,mjlk,Mjölk,374
+2929,avakado,Avokado,161
+2930,voccado,Avokado,161
+2931,"pasta färsk","Gnocchi Färsk",3026
+2932,gnoshi,"Gnocchi Färsk",3026
+2933,gnocci,"Gnocchi Färsk",3026
+2934,gnochi,"Gnocchi Färsk",3026
+2935,gnoci,"Gnocchi Färsk",3026
+2936,gnocki,"Gnocchi Färsk",3026
+2937,tottelini,"Tortellini Färsk",2714
+2938,tortiolini,"Tortellini Färsk",2714
+2939,totelini,"Tortellini Färsk",2714
+2940,totlini,"Tortellini Färsk",2714
+2941,fettushini,"Fettuccini Färsk",2952
+2942,fettoshini,"Fettuccini Färsk",2952
+2943,fetuschini,"Fettuccini Färsk",2952
+2944,fettuschini,"Fettuccini Färsk",2952
+2945,fetschini,"Fettuccini Färsk",2952
+2946,fettuscihi,"Fettuccini Färsk",2952
+2947,tagilioni,"Tagliatelle Färsk",2715
+2948,tgeliatell,"Tagliatelle Färsk",2715
+2949,tagliatell,"Tagliatelle Färsk",2715
+2950,tagliatele,"Tagliatelle Färsk",2715
+2951,tagelitelli,"Tagliatelle Färsk",2715
+2952,tagolin,"Tagolini Färsk",2327
+2953,taligini,"Tagolini Färsk",2327
+2954,tagoli,"Tagolini Färsk",2327
+2955,"isberg sallat",Isbergssallat,791
+2956,"isberg sallad",Isbergssallat,791
+2957,"sallad isberg",Isbergssallat,791
+2958,"sallat isberg",Isbergssallat,791
+2959,majonnes,Majonnäs,342
+2960,majones,Majonnäs,342
+2961,mayo,Majonnäs,342
+2962,majonä,Majonnäs,342
+2963,mayonnäs,Majonnäs,342
+2964,mayonäs,Majonnäs,342
+2965,rost,"Toast & Rostbröd",3136
+2966,rosbröd,"Toast & Rostbröd",3136
+2967,"rost bröd","Toast & Rostbröd",3136
+2968,toastbröd,"Toast & Rostbröd",3136
+2969,"toast bröd","Toast & Rostbröd",3136
+2970,rostbrd,"Toast & Rostbröd",3136
+2971,huspapper,Hushållspapper,512
+2972,"hushålls papper",Hushållspapper,512
+2973,"hus papper",Hushållspapper,512
+2974,annanas,Ananas,171
+2974,annanas,"Ananas Bitar",4152
+2974,annanas,"Ananas Fryst",2680
+2974,annanas,"Ananas i Fruktkonserver",976
+2974,annanas,Ananasjuice,3157
+2975,permansan,"Parmesan, Pecorino & Grana Padano",64
+2976,"parmasan ost","Parmesan, Pecorino & Grana Padano",64
+2977,fond,"Buljong & Fond",396
+2977,fond,"Vilt/Kantarellfond Bulj.",2230
+2977,fond,Fonder,3713
+2977,fond,Buljong,3712
+2978,buljog,"Buljong & Fond",396
+2979,bulljong,"Buljong & Fond",396
+2980,bulljog,"Buljong & Fond",396
+2981,squasch,Zucchini,166
+2981,squasch,Squash,3496
+2982,zukini,Zucchini,166
+2983,Partyis,Is,2981
+2994,fest,Lösviktsgodis,4570
+2995,kalas,Lösviktsgodis,4570
+2996,miniplommontomater,Miniplommontomater,2191
+2997,"miniplommon tomater",Miniplommontomater,2191
+2998,"plommon tomater mini",Miniplommontomater,2191
+2999,"plommon tommater",Miniplommontomater,2191
+3000,"tommater plommon",Miniplommontomater,2191
+3001,"plomon tomater",Miniplommontomater,2191
+3001,"plomon tomater",Plommontomater,2182
+3002,"eko tomater",Miniplommontomater,2191
+3003,"papaja ",Papaya,232
+3004,papja,Papaya,232
+3005,papya,Papaya,232
+3006,pappaja,Papaya,232
+3007,pappaya,Papaya,232
+3008,beasås,Bearnaisesås,1261
+3009,beanesås,Bearnaisesås,1261
+3010,bearnes,Bearnaisesås,1261
+3011,bearnaie,Bearnaisesås,1261
+3012,bearnaiessås,Bearnaisesås,1261
+3013,"bea ",Bearnaisesås,1261
+3014,hollandisås,Hollandaissås,2213
+3015,hollanddaisås,Hollandaissås,2213
+3016,"hollandaise sås",Hollandaissås,2213
+3017,"hollandai sås",Hollandaissås,2213
+3018,hollandaisås,Hollandaissås,2213
+3019,helleflundra,Hälleflundra,3930
+3020,häleflundra,Hälleflundra,3930
+3021,helflundra,Hälleflundra,3930
+3022,hälflundra,Hälleflundra,3930
+3023,hällflundra,Hälleflundra,3930
+3024,hellflundra,Hälleflundra,3930
+3026,klädnypa,Klädnypor,4231
+3027,klädnypor,Klädnypor,4231
+3028,Toapapper,Toalettpapper,55
+3030,salad,Salladsmix,2197
+3030,salad,Sallat,165
+3034,smootie,"Fruktdryck & Dessertsoppa",592
+3035,smotie,"Fruktdryck & Dessertsoppa",592
+3036,smothie,"Fruktdryck & Dessertsoppa",592
+3037,salat,Salladsmix,2197
+3037,salat,Sallat,165
+3038,nektariner,Nektarin,77
+3039,pyttipanna,Pytt,1539
+3040,hamburgarbröd,Hamburgerbröd,1917
+3041,prosciuttio,Prosciutto,874
+3041,prosciuttio,Getmjölk,4248
+3042,potato,Potatis,46
+3043,juicer,Juice,231
+3043,juicer,"Övrig juice",982
+3054,morot,Morötter,175
+3054,morot,"Vanliga morötter",3767
+3054,morot,"Frysta Morötter",3769
+3054,morot,"Morötter i Knippe",4226
+3056,ketchup,Tomatketchup,328
+3057,Servett,Servetter,2976
+3058,Servetter,Servetter,2976
+3060,ris,"Ris & Gryn",25
+3062,drickaback,Drickabackar,3729
+3063,läskback,Drickabackar,3729
+3068,cocosmjölk,Kokosmjölk,1146
+3075,äppeljuice,Äppeljuice,1083
+3076,äpplejuice,Äppeljuice,1083
+3080,"laktosfri glass","Laktosfri glass",4611
+3082,mjöl,Vetemjöl,708
+3084,veg,"Kryddmix Veggie Wok",3095
+3084,veg,"Pizza Vegetarisk",3306
+3084,veg,"Portionsrätter Veg",2919
+3084,veg,"Taco Kryddmix - Veg",3659
+3091,toalettpapper,Toalettpapper,55
+3092,Texmex,"Kryddmix Tapas",4263
+3093,nötfärs,Köttfärs,449
+3093,nötfärs,"Köttfärs - Nöt",848
+3094,allreng,Allrengöringsmedel,1224
+3095,allrengör,Allrengöringsmedel,1224
+3096,julvaror,Julvaror,3869
+3096,julvaror,Pepparkakor,375
+3096,julvaror,Glögg,3864
+3096,julvaror,Julmust,3849
+3096,julvaror,Juldryck,3870
+3096,julvaror,Julvört,3872
+3096,julvaror,"Sötmandel Naturell",2948
+3096,julvaror,"Julgodis & Julnötter",53
+3096,julvaror,Pepparkaksdeg,3865
+3096,julvaror,"Monikas Julkasse",4291
+3096,julvaror,julknäcke,4490
+3097,fläskkotlett,Fläskkotlett,845
+3098,kotlett,Fläskkotlett,845
+3099,parmesanost,"Parmesan, Pecorino & Grana Padano",64
+3099,parmesanost,"Riven Parmesanost",2891
+3100,"parmesan ost","Riven Parmesanost",2891
+3101,parm,"Riven Parmesanost",2891
+3102,clemen,Småcitrus,3230
+3103,scampi,Tigerräkor,3046
+3103,scampi,Kungsräkor,4620
+3104,jätteräkor,Tigerräkor,3046
+3105,tigeräkor,Tigerräkor,3046
+3106,tigerräka,Tigerräkor,3046
+3107,tigeräka,Tigerräkor,3046
+3108,räddisor,Rädisor,633
+3109,räddisa,Rädisor,633
+3110,spagett,Spaghetti,1453
+3111,formfranska,"Formfranska & Toast",1766
+3111,formfranska,Formfranska,3135
+3112,"form franska","Formfranska & Toast",1766
+3112,"form franska",Formfranska,3135
+3113,linfrön,Linfrö,1492
+3114,"lin frön",Linfrö,1492
+3115,"lin frö",Linfrö,1492
+3116,squa,Squash,3496
+3117,zucch,Squash,3496
+3118,zuckini,Squash,3496
+3119,halloumi,Halloumi,2888
+3120,haloumi,Halloumi,2888
+3121,hallumi,Halloumi,2888
+3122,halumi,Halloumi,2888
+3123,halomi,Halloumi,2888
+3124,hallomi,Halloumi,2888
+3125,haloumiost,Halloumi,2888
+3126,halloumiost,Halloumi,2888
+3127,"halloumi ost",Halloumi,2888
+3128,"haloumi ost",Halloumi,2888
+3129,paprikapulver,Paprikakrydda,1275
+3130,"paprika pulver",Paprikakrydda,1275
+3131,paprikakrydda,Paprikakrydda,1275
+3132,"paprika krydda",Paprikakrydda,1275
+3133,papprikapulver,Paprikakrydda,1275
+3134,fullkornspasta,"Lasagneplattor Fullkorn",4030
+3134,fullkornspasta,"Makaroner Fullkorn",3655
+3134,fullkornspasta,"Spaghetti Fullkorn",3485
+3135,"fullkorns pasta","Lasagneplattor Fullkorn",4030
+3135,"fullkorns pasta","Makaroner Fullkorn",3655
+3135,"fullkorns pasta","Spaghetti Fullkorn",3485
+3136,annannas,Ananas,171
+3137,ananas,Ananas,171
+3137,ananas,"Ananas Fryst",2680
+3137,ananas,"Ananas i Fruktkonserver",976
+3138,anananas,Ananas,171
+3139,"flytande smör","Flytande Smör och Margarin",2931
+3140,"flytande margarin","Flytande Smör och Margarin",2931
+3141,avoka,Avokado,161
+3142,avokad,Avokado,161
+3143,finncrisp,"Finn crisp",1356
+3144,"finn crisp","Finn crisp",1356
+3145,finnkrisp,"Finn crisp",1356
+3146,"finn krisp","Finn crisp",1356
+3147,Vegetariskt,"Vegetariska produkter",1169
+3147,Vegetariskt,"Kryddmix Veg Masala",3086
+3147,Vegetariskt,"Kryddmix Veggie Wok",3095
+3147,Vegetariskt,"Pizza Vegetarisk",3306
+3147,Vegetariskt,"Portionsrätter Veg",2919
+3147,Vegetariskt,"Taco Kryddmix - Veg",3659
+3148,vege,"Vegetariska produkter",1169
+3148,vege,"Kryddmix Veg Masala",3086
+3148,vege,"Kryddmix Veggie Wok",3095
+3148,vege,"Pizza Vegetarisk",3306
+3148,vege,"Portionsrätter Veg",2919
+3148,vege,"Taco Kryddmix - Veg",3659
+3149,vegetarisk,"Vegetariska produkter",1169
+3149,vegetarisk,"Kryddmix Veg Masala",3086
+3149,vegetarisk,"Kryddmix Veggie Wok",3095
+3149,vegetarisk,"Pizza Vegetarisk",3306
+3149,vegetarisk,"Portionsrätter Veg",2919
+3149,vegetarisk,"Taco Kryddmix - Veg",3659
+3150,vegge,"Vegetariska produkter",1169
+3150,vegge,"Kryddmix Veg Masala",3086
+3150,vegge,"Kryddmix Veggie Wok",3095
+3150,vegge,"Pizza Vegetarisk",3306
+3150,vegge,"Taco Kryddmix - Veg",3659
+3151,veggetariskt,"Vegetariska produkter",1169
+3151,veggetariskt,"Kryddmix Veg Masala",3086
+3151,veggetariskt,"Kryddmix Veggie Wok",3095
+3151,veggetariskt,"Pizza Vegetarisk",3306
+3151,veggetariskt,"Portionsrätter Veg",2919
+3151,veggetariskt,"Taco Kryddmix - Veg",3659
+3152,veggetarisk,"Vegetariska produkter",1169
+3152,veggetarisk,"Kryddmix Veg Masala",3086
+3152,veggetarisk,"Kryddmix Veggie Wok",3095
+3152,veggetarisk,"Pizza Vegetarisk",3306
+3152,veggetarisk,"Portionsrätter Veg",2919
+3152,veggetarisk,"Taco Kryddmix - Veg",3659
+3153,vegetariska,"Vegetariska produkter",1169
+3153,vegetariska,"Kryddmix Veg Masala",3086
+3153,vegetariska,"Kryddmix Veggie Wok",3095
+3153,vegetariska,"Pizza Vegetarisk",3306
+3153,vegetariska,"Portionsrätter Veg",2919
+3153,vegetariska,"Taco Kryddmix - Veg",3659
+3154,veggetariska,"Kryddmix Veg Masala",3086
+3154,veggetariska,"Kryddmix Veggie Wok",3095
+3154,veggetariska,"Pizza Vegetarisk",3306
+3154,veggetariska,"Portionsrätter Veg",2919
+3154,veggetariska,"Taco Kryddmix - Veg",3659
+3155,vegg,"Pizza Vegetarisk",3306
+3155,vegg,"Portionsrätter Veg",2919
+3155,vegg,"Taco Kryddmix - Veg",3659
+3156,veggie,"Pizza Vegetarisk",3306
+3156,veggie,"Portionsrätter Veg",2919
+3156,veggie,"Taco Kryddmix - Veg",3659
+3157,"gröna ärter","Gröna Ärtor",3273
+3158,grönaärtor,"Gröna Ärtor",3273
+3159,"grön ärta","Gröna Ärtor",3273
+3160,"grön ärtor","Gröna Ärtor",3273
+3161,tomatkross,"Krossade Tomater",2578
+3162,"tomater krossade","Krossade Tomater",2578
+3163,"krossade tomater","Krossade Tomater",2578
+3164,"tomat kross","Krossade Tomater",2578
+3165,"tomat krossade","Krossade Tomater",2578
+3166,"tomater kross","Krossade Tomater",2578
+3167,"tomat krossa","Krossade Tomater",2578
+3168,clem,Småcitrus,3230
+3169,clement,Småcitrus,3230
+3170,sats,Småcitrus,3230
+3171,satsu,Småcitrus,3230
+3172,kleme,Småcitrus,3230
+3173,klem,Småcitrus,3230
+3174,manda,Småcitrus,3230
+3175,mandar,Småcitrus,3230
+3176,gillette,Rakhyvlar,994
+3177,gilette,Rakhyvlar,994
+3178,gillete,Rakhyvlar,994
+3179,gillett,Rakhyvlar,994
+3180,venus,Rakhyvlar,994
+3181,"venus divine",Rakhyvlar,994
+3182,divine,Rakhyvlar,994
+3183,rakhyvel,Rakhyvlar,994
+3184,rakhyvla,Rakhyvlar,994
+3185,rakhyvlar,Rakhyvlar,994
+3186,glödlamp,Glödlampor,2991
+3187,glödla,Glödlampor,2991
+3188,glödl,Glödlampor,2991
+3189,disktr,Diskduk,3965
+3190,disktra,Diskduk,3965
+3191,kycklingfärs,Kycklingfärs,1410
+3192,kycklingfä,Kycklingfärs,1410
+3193,pizzakit,Pizzamix,1300
+3194,"pizza kit",Pizzamix,1300
+3195,"pizza mix",Pizzamix,1300
+3196,pizzamix,Pizzamix,1300
+3197,"kit för pizza",Pizzamix,1300
+3198,kykling,Kyckling,189
+3198,kykling,Pärlhöna,4313
+3199,kyckl,Kyckling,189
+3199,kyckl,Pärlhöna,4313
+3200,kykl,Kyckling,189
+3200,kykl,Pärlhöna,4313
+3201,kyckli,Kyckling,189
+3201,kyckli,Pärlhöna,4313
+3202,lättöl,"Öl upp till 2,8%",390
+3203,"lätt öl","Öl upp till 2,8%",390
+3204,"potatis fast","Potatis Fast",834
+3205,"fast potatis","Potatis Fast",834
+3206,pot,"Potatis Fast",834
+3207,"ris nudlar",Risnudlar,2801
+3208,"nudlar ris",Risnudlar,2801
+3209,risnudel,Risnudlar,2801
+3210,nudel,Risnudlar,2801
+3211,cocktailtomater,Körsbärstomater,2186
+3211,cocktailtomater,"Körsbärstomater Gula",2183
+3212,coctailtomater,Körsbärstomater,2186
+3212,coctailtomater,"Körsbärstomater Gula",2183
+3213,coktailtomater,Körsbärstomater,2186
+3213,coktailtomater,"Körsbärstomater Gula",2183
+3214,cocktailtomat,Körsbärstomater,2186
+3214,cocktailtomat,"Körsbärstomater Gula",2183
+3215,coctailtomat,Körsbärstomater,2186
+3215,coctailtomat,"Körsbärstomater Gula",2183
+3216,coktailtomat,Körsbärstomater,2186
+3216,coktailtomat,"Körsbärstomater Gula",2183
+3217,"cocktail tomater",Körsbärstomater,2186
+3217,"cocktail tomater","Körsbärstomater Gula",2183
+3218,"cocktail tomat",Körsbärstomater,2186
+3218,"cocktail tomat","Körsbärstomater Gula",2183
+3219,rostbr,"Toast & Rostbröd",3136
+3220,havredryck,"Havredryck Naturell",3358
+3220,havredryck,"Havredryck Smaksatt",3359
+3221,"havre dryck","Havredryck Naturell",3358
+3221,"havre dryck","Havredryck Smaksatt",3359
+3222,"avre mjölk","Havredryck Naturell",3358
+3223,"havre mjölk","Havredryck Naturell",3358
+3223,"havre mjölk","Havredryck Smaksatt",3359
+3224,hamburgebröd,Hamburgerbröd,1917
+3225,hambugerbröd,Hamburgerbröd,1917
+3226,"hamburger bröd",Hamburgerbröd,1917
+3227,"hamburge bröd",Hamburgerbröd,1917
+3228,"hamburgare bröd",Hamburgerbröd,1917
+3229,hamburgarebröd,Hamburgerbröd,1917
+3230,krovbröd,Hamburgerbröd,1917
+3231,korvbröd,Hamburgerbröd,1917
+3232,"korv bröd",Hamburgerbröd,1917
+3243,wc-duck,WC-Rengöring,2786
+3244,"wc duck",WC-Rengöring,2786
+3245,"wc anka",WC-Rengöring,2786
+3246,wc-anka,WC-Rengöring,2786
+3247,wc-ankan,WC-Rengöring,2786
+3248,"wc ankan",WC-Rengöring,2786
+3249,"wc ank",WC-Rengöring,2786
+3250,"wc anca",WC-Rengöring,2786
+3251,"duck wc",WC-Rengöring,2786
+3252,"wc activ",WC-Rengöring,2786
+3253,"wc active",WC-Rengöring,2786
+3254,"wc aktiv",WC-Rengöring,2786
+3255,duck,WC-Rengöring,2786
+3256,fläskkotletter,Fläskkotlett,845
+3257,ansjovis,Ansjovis,537
+3257,ansjovis,Ansjovisfiléer,2127
+3258,ansjovisar,Ansjovis,537
+3258,ansjovisar,Ansjovisfiléer,2127
+3259,ansjo,Ansjovis,537
+3259,ansjo,Ansjovisfiléer,2127
+3260,anjo,Ansjovis,537
+3260,anjo,"Päron Anjou",3245
+3260,anjo,Ansjovisfiléer,2127
+3261,sköljmedel,Sköljmedel,1210
+3262,mjukmedel,Sköljmedel,1210
+3263,"skölj medel",Sköljmedel,1210
+3264,sjöljmedel,Sköljmedel,1210
+3265,"mjuk medel",Sköljmedel,1210
+3266,kotletter,Fläskkotlett,845
+3270,ostkrokar,Ostbågar,4742
+3273,philadelfia,Färskost,2754
+3274,"färsk ost",Färskost,2754
+3275,filadelfiaost,Färskost,2754
+3276,philadelphiaost,Färskost,2754
+3276,philadelphiaost,"Färskost Naturell",2871
+3277,allbran,Branflakes,3547
+3277,allbran,"Flingor - All Bran",4285
+3278,"all bran",Branflakes,3547
+3279,lampa,Glödlampor,2991
+3280,lampor,Glödlampor,2991
+3281,torrjäst,"Jäst Torr",2965
+3281,torrjäst,"Jäst Original Torr",3361
+3281,torrjäst,"Jäst Söta Degar Torr",3363
+3282,"torr jäst","Jäst Torr",2965
+3282,"torr jäst","Jäst Original Torr",3361
+3282,"torr jäst","Jäst Söta Degar Torr",3363
+3283,"jäst torr","Jäst Original Torr",3361
+3283,"jäst torr","Jäst Söta Degar Torr",3363
+3284,tortillabröd,Tortilla,1697
+3285,"tortilla bröd",Tortilla,1697
+3286,tortila,Tortilla,1697
+3286,tortila,"Tortilla - Små",3663
+3286,tortila,"Tortilla Chili & Jalapeno",3611
+3286,tortila,"Tortilla Tomater & Örter",3616
+3286,tortila,"Tortilla Whole Wheat",3618
+3287,tortill,Tortilla,1697
+3290,bondbönor,Bondbönor,3542
+3291,"bond bönor",Bondbönor,3542
+3292,salladshuvud,Isbergssallat,791
+3293,"sallads huvud",Isbergssallat,791
+3294,sockerärta,Sockerärta,2266
+3295,sockerärtor,Sockerärta,2266
+3296,sockeräerter,Sockerärta,2266
+3297,sockerärter,Sockerärta,2266
+3298,"socker ärtor",Sockerärta,2266
+3299,"socker ärter",Sockerärta,2266
+3300,"socker ärta",Sockerärta,2266
+3301,"ost riven","Riven Ost",3064
+3302,rivenost,"Riven Ost",3064
+3303,medvurst,Medwurst,2286
+3304,kognacsmedvurst,Medwurst,2286
+3305,kognacmedwurst,Medwurst,2286
+3306,qourn,"Vegetariska produkter",1169
+3307,quorn,"Vegetariska produkter",1169
+3308,kolasås,Kolasås,1234
+3309,"kola sås",Kolasås,1234
+3310,"sås kola",Kolasås,1234
+3311,dessertsås,Kolasås,1234
+3312,libero,Libero,3938
+3313,"blöjor libero",Libero,3938
+3314,"blöja libero",Libero,3938
+3315,sardin,Sardiner,1364
+3316,sardiner,Sardiner,1364
+3317,"creme fraische","Creme Fraiche",2903
+3318,"créme fraiche","Creme Fraiche",2903
+3319,soppåse,Avfallspåsar,3986
+3320,avfall,Avfallspåsar,3986
+3321,blomjord,Blomjord,312
+3322,"blom jord",Blomjord,312
+3323,riskaka,Riskakor,1110
+3324,"ris kaka",Riskakor,1110
+3325,"ris kakor",Riskakor,1110
+3326,rågfras,Rågkuddar,4122
+3327,sugarsnaps,Sugarsnaps,4230
+3328,"sugar snaps",Sugarsnaps,4230
+3329,citronsaft,"Citronjuice - råpressad",2834
+3330,citronjuice,"Citronjuice - råpressad",2834
+3331,citronkoncentrat,"Citronjuice - råpressad",2834
+3332,"pressad citron","Citronjuice - råpressad",2834
+3333,"citron pressad","Citronjuice - råpressad",2834
+3334,"lök gul","Gul lök",828
+3335,"gul lök","Gul lök",828
+3336,"gula lökar","Gul lök",828
+3337,"lökar gula","Gul lök",828
+3338,rucola,Ruccolasallat,2045
+3339,rucolasallad,Ruccolasallat,2045
+3340,rucolasalat,Ruccolasallat,2045
+3341,rucolasallat,Ruccolasallat,2045
+3342,honungsmelon,"Melon Honung",3240
+3343,"honungs melon","Melon Honung",3240
+3344,"honung melon","Melon Honung",3240
+3345,honungmelon,"Melon Honung",3240
+3346,galiamelon,"Melon Galia",3239
+3347,"galia melon","Melon Galia",3239
+3348,"vin druvor",Vindruvor,605
+3349,"vin druva",Vindruvor,605
+3350,druva,Vindruvor,605
+3351,druvor,Vindruvor,605
+3352,gulasch,Gulasch,1833
+3353,"gulasch soppa",Gulasch,1833
+3354,gulaschsoppa,Gulasch,1833
+3355,gulash,Gulasch,1833
+3356,gulashsoppa,Gulasch,1833
+3357,gulach,Gulasch,1833
+3358,gulachsoppa,Gulasch,1833
+3359,kycklingfiléer,Kycklingfile,957
+3360,vaniljkräm,Vaniljsås,1615
+3361,"vanilj sås",Vaniljsås,1615
+3362,vaniljsås,Vaniljsås,1615
+3363,marsansås,Vaniljsås,1615
+3364,marsan,Vaniljsås,1615
+3365,kanelstång,"Kanel Hel",3625
+3366,"kanel stång","Kanel Hel",3625
+3367,diskmaskinssalt,Diskmaskinsrengöring,4100
+3368,diskmaskinsalt,Diskmaskinsrengöring,4100
+3369,"diskmaskin salt",Diskmaskinsrengöring,4100
+3370,"spol glans",Diskmaskinsrengöring,4100
+3371,"diskmaskin rengöring",Diskmaskinsrengöring,4100
+3372,duschkräm,Duschtvål,1029
+3373,duschcreme,Duschtvål,1029
+3374,dusch,Duschtvål,1029
+3375,"dusch kräm",Duschtvål,1029
+3376,"dusch creme",Duschtvål,1029
+3377,championer,Champinjon,552
+3377,championer,Skogschampinjoner,822
+3378,shampinjoner,Champinjon,552
+3378,shampinjoner,"Färska champinjoner",2461
+3379,shampioner,Champinjon,552
+3380,schampinjoner,Champinjon,552
+3381,schampioner,Champinjon,552
+3382,champion,Champinjon,552
+3382,champion,Skogschampinjoner,822
+3383,shampion,Champinjon,552
+3384,schampion,Champinjon,552
+3385,mussli,Müsli,1787
+3386,müssli,Müsli,1787
+3387,permesan,"Parmesan, Pecorino & Grana Padano",64
+3387,permesan,"Riven Parmesanost",2891
+3388,permesanost,"Parmesan, Pecorino & Grana Padano",64
+3388,permesanost,"Riven Parmesanost",2891
+3389,"permesan ost","Parmesan, Pecorino & Grana Padano",64
+3390,vaniljyoghurt,Vaniljyoghurt,3457
+3391,vaniljyougurt,Vaniljyoghurt,3457
+3392,vaniljyogurt,Vaniljyoghurt,3457
+3393,vaniljyoughurt,Vaniljyoghurt,3457
+3394,vaniljyoggi,Vaniljyoghurt,3457
+3395,vaniljjogurt,Vaniljyoghurt,3457
+3396,"kokos mjölk",Kokosmjölk,1146
+3397,"cocos mjölk",Kokosmjölk,1146
+3398,plastglas,Engångsglas/bägare,4289
+3399,plastkoppar,Engångsglas/bägare,4289
+3400,engångskoppar,Engångsglas/bägare,4289
+3401,bägare,Engångsglas/bägare,4289
+3402,engångskopp,Engångsglas/bägare,4289
+3403,brocoli,Broccoli,487
+3403,brocoli,"Broccoli Färsk",3257
+3403,brocoli,"Broccoli Fryst",1631
+3404,brocholi,Broccoli,487
+3404,brocholi,"Broccoli Färsk",3257
+3404,brocholi,"Broccoli Fryst",1631
+3405,broccoli,Broccoli,487
+3405,broccoli,"Broccoli Fryst",1631
+3406,brockoli,Broccoli,487
+3406,brockoli,"Broccoli Färsk",3257
+3406,brockoli,"Broccoli Fryst",1631
+3407,brokoli,Broccoli,487
+3407,brokoli,"Broccoli Färsk",3257
+3408,kruksallad,Sallat,165
+3408,kruksallad,Plocksallat,2264
+3408,kruksallad,Romansallat,2273
+3408,kruksallad,"Röd/Grön Sallat",1296
+3408,kruksallad,Krispsallat,2194
+3408,kruksallad,Kaskadsallat,2043
+3409,kruksallat,Sallat,165
+3410,wok,Wokmix,491
+3410,wok,"Wokgrönsaker Burk",3426
+3410,wok,"Woknoodles - färdiga",3653
+3410,wok,Woksås,1154
+3410,wok,"Kryddmix Thai Wok",3089
+3410,wok,"Kryddmix Veggie Wok",3095
+3410,wok,"Wokmix Fryst",1635
+3411,wook,Wokmix,491
+3411,wook,"Wokgrönsaker Burk",3426
+3411,wook,"Woknoodles - färdiga",3653
+3411,wook,Woksås,1154
+3411,wook,"Kryddmix Thai Wok",3089
+3411,wook,"Kryddmix Veggie Wok",3095
+3411,wook,"Wokmix Fryst",1635
+3412,wock,Wokmix,491
+3412,wock,"Wokgrönsaker Burk",3426
+3412,wock,"Woknoodles - färdiga",3653
+3412,wock,Woksås,1154
+3412,wock,"Kryddmix Thai Wok",3089
+3412,wock,"Kryddmix Veggie Wok",3095
+3413,matjesill,Matjessill,510
+3414,matjes,Matjessill,510
+3415,"matje sill",Matjessill,510
+3416,"matjes sill",Matjessill,510
+3417,"hård ost",Hårdost,3059
+3417,"hård ost","Prästost Lagrad",4304
+3418,soppa,Soppor,454
+3419,soppor,Soppor,454
+3420,"äpple juice",Äppeljuice,1083
+3421,"äppel juice",Äppeljuice,1083
+3422,äpplejos,Äppeljuice,1083
+3423,äppeljos,Äppeljuice,1083
+3424,pistagenötter,Pistagenötter,2899
+3425,pistagenöt,Pistagenötter,2899
+3426,"pistage nötter",Pistagenötter,2899
+3427,"pistage nöt",Pistagenötter,2899
+3428,pistasch,Pistagenötter,2899
+3429,pistaschnötter,Pistagenötter,2899
+3430,pistach,Pistagenötter,2899
+3431,viltskav,Renskav,2206
+3432,skav,Renskav,2206
+3433,"färsk peppar",Chilifrukter,3009
+3434,appelsin,Apelsin,718
+3435,"apel sin",Apelsin,718
+3436,apellsin,Apelsin,718
+3439,rotse,Rotselleri,2856
+3440,"rot selleri",Rotselleri,2856
+3441,rotseleri,Rotselleri,2856
+3442,diskhandskar,Städhandskar,3916
+3443,diskhandske,Städhandskar,3916
+3444,"disk handske",Städhandskar,3916
+3445,"disk handskar",Städhandskar,3916
+3446,ugnsfolie,Aluminiumfolie,1320
+3447,folie,Aluminiumfolie,1320
+3448,jordgubbssaft,"Saft Jordgubb",1436
+3449,jordgubbsaft,"Saft Jordgubb",1436
+3450,"jordgubbs saft","Saft Jordgubb",1436
+3451,"jordgubb saft","Saft Jordgubb",1436
+3452,"saft jordgubb","Saft Jordgubb",1436
+3453,dammsugarpåsar,Dammsugarpåsar,4197
+3454,dammsugarpåse,Dammsugarpåsar,4197
+3455,"damm sugarpåse",Dammsugarpåsar,4197
+3456,"damm sugarpåsar",Dammsugarpåsar,4197
+3457,tidningar,Kvällstidningar,3502
+3458,tidning,Kvällstidningar,3502
+3459,kvällstidning,Kvällstidningar,3502
+3460,kvällstidningar,Kvällstidningar,3502
+3461,"kvälls tidning",Kvällstidningar,3502
+3462,tidningen,Kvällstidningar,3502
+3463,kalkonkorv,Kalkonkorv,4220
+3464,"kalkon korv",Kalkonkorv,4220
+3465,ketschup,Tomatketchup,328
+3466,ketshup,Tomatketchup,328
+3467,fiskfile,Gösfile,3679
+3467,fiskfile,Laxfilé,775
+3467,fiskfile,Koljafile,3002
+3467,fiskfile,Torskfilé,776
+3467,fiskfile,Pangasius/Hajmalsfile,3003
+3468,gösfile,Gösfile,3679
+3469,laxfilé,Laxfilé,775
+3470,koljafile,Koljafile,3002
+3471,kolja,Koljafile,3002
+3472,torskfile,Torskfilé,776
+3472,torskfile,"Torskfilé Färsk",4429
+3473,hajmalsfile,Pangasius/Hajmalsfile,3003
+3474,pangasius,Pangasius/Hajmalsfile,3003
+3475,hajmal,Pangasius/Hajmalsfile,3003
+3476,bomullsrondeller,Bomullsrondeller,1702
+3477,bomullsrondell,Bomullsrondeller,1702
+3478,"bomulls rondell",Bomullsrondeller,1702
+3479,"bomulls rondeller",Bomullsrondeller,1702
+3480,disksvamp,Rengöringssvamp,3964
+3481,allrengöringssvamp,Rengöringssvamp,3964
+3482,allrengöringsvamp,Rengöringssvamp,3964
+3483,rengöringsvamp,Rengöringssvamp,3964
+3484,rengöringssvamp,Rengöringssvamp,3964
+3485,"disk svamp",Rengöringssvamp,3964
+3486,"inlagd gurka","Inlagd gurka",1097
+3487,tacobröd,Tortilla,1697
+3488,tacosbröd,Tortilla,1697
+3489,"tacos bröd",Tortilla,1697
+3490,"taco bröd",Tortilla,1697
+3491,blåbärsoppa,Blåbärssoppa,1616
+3492,"blåbärs soppa",Blåbärssoppa,1616
+3493,"blåbär soppa",Blåbärssoppa,1616
+3495,hotdogs,Grillkorv,709
+3496,"hot dog",Grillkorv,709
+3497,"hot dogs",Grillkorv,709
+3498,"grill korv",Grillkorv,709
+3499,köttlåda,Köttlådor,4040
+3500,"kött lådor",Köttlådor,4040
+3501,"kött låda",Köttlådor,4040
+3504,Scharlottenlök,Schalottenlök,2187
+3505,sharlottenlök,Schalottenlök,2187
+3509,rivost,"Riven Ost",3064
+3510,diflaska,Nappflaskor,4293
+3511,diflaskor,Nappflaskor,4293
+3512,nappflaska,Nappflaskor,4293
+3513,napp,Nappar,4294
+3514,dinapp,Nappar,4294
+3515,nappar,Nappar,4294
+3516,Haklapp,Haklappar,4296
+3517,haklappar,Haklappar,4296
+3518,barnschampoo,Barnvård,3909
+3519,barnshampoo,Barnvård,3909
+3520,barnschampo,Barnvård,3909
+3521,barnshampo,Barnvård,3909
+3522,babyolja,Barnvård,3909
+3523,kroppspuder,Barnvård,3909
+3524,kvisttomater,Kvisttomater,2120
+3525,kvistomater,Kvisttomater,2120
+3526,"kvist tomater",Kvisttomater,2120
+3527,kvisttomat,Kvisttomater,2120
+3528,kvistomat,Kvisttomater,2120
+3529,"kvist tomat",Kvisttomater,2120
+3530,"tomat kvist",Kvisttomater,2120
+3531,"tomater kvist",Kvisttomater,2120
+3532,lasangeplattor,Lasagneplattor,1312
+3533,lasagneplattor,Lasagneplattor,1312
+3534,lasange,Lasagneplattor,1312
+3535,lasagne,Lasagneplattor,1312
+3536,"gröna äpplen","Äpple Golden Delicius",3248
+3536,"gröna äpplen","Äpple Granny Smith",3250
+3537,"gula äpplen","Äpple Golden Delicius",3248
+3538,vattenkastanj,Vattenkastanjer,618
+3539,vattenkastanjer,Vattenkastanjer,618
+3540,"vatten kastanjer",Vattenkastanjer,618
+3541,kastanjer,Vattenkastanjer,618
+3542,kastanj,Vattenkastanjer,618
+3543,persimon,Sharon,3880
+3544,naturgodis,Naturgodis,4151
+3545,"natur godis",Naturgodis,4151
+3549,trasor,Diskduk,3965
+3550,trasa,Diskduk,3965
+3551,hushållpapper,Hushållspapper,512
+3552,jordärtskockor,Jordärtskocka,624
+3553,jordärtskocka,Jordärtskocka,624
+3554,kondom,Preventivmedel,1143
+3555,kondomer,Preventivmedel,1143
+3556,gravtest,Preventivmedel,1143
+3557,graviditetstest,Preventivmedel,1143
+3558,glidmedel,Preventivmedel,1143
+3559,massageolja,Preventivmedel,1143
+3560,remoulad,Remouladsås,1502
+3561,"remoulad sås",Remouladsås,1502
+3562,remouladsås,Remouladsås,1502
+3563,remolad,Remouladsås,1502
+3564,remoladsås,Remouladsås,1502
+3565,"remolad sås",Remouladsås,1502
+3566,tahini,Sesampasta,3897
+3567,pizzaost,"Riven Pizzaost",557
+3568,"pizza ost","Riven Pizzaost",557
+3569,matlagningsyoghurt,"Yoghurt för Matlagning",1326
+3570,matyoghurt,"Yoghurt för Matlagning",1326
+3571,matlagningsyougurt,"Yoghurt för Matlagning",1326
+3572,matlagningsyoughurt,"Yoghurt för Matlagning",1326
+3573,teriyaki,Teriyakisås,2492
+3574,teriaki,Teriyakisås,2492
+3575,sopsäck,Avfallspåsar,3986
+3576,sopsäckar,Avfallspåsar,3986
+3577,vitlöksklyftor,Vitlök,623
+3577,vitlöksklyftor,"Vitlök Färsk",3271
+3577,vitlöksklyftor,"Vitlök Vanlig",2681
+3580,"kinesisk soja","Kinesisk soja",2928
+3580,"kinesisk soja","Övrig soja",4179
+3581,"kinesisk soya","Kinesisk soja",2928
+3582,"soja kinesisk","Kinesisk soja",2928
+3583,"japansk soja","Japansk soja",1362
+3584,"soja japansk","Japansk soja",1362
+3585,"panerad fisk",Fiskpinnar,1371
+3587,pulvermos,Potatismospulver,1522
+3591,bordssalt,Flingsalt,1944
+3592,bordsalt,Flingsalt,1944
+3593,"fling salt",Flingsalt,1944
+3594,"salt fling",Flingsalt,1944
+3595,delikatesspotatis,Delikatesspotatis,3276
+3596,"delikatess potatis",Delikatesspotatis,3276
+3597,"potatis delikatess",Delikatesspotatis,3276
+3598,frallor,"Baguetter & Småbröd",3117
+3599,fralla,"Baguetter & Småbröd",3117
+3600,småbröd,"Baguetter & Småbröd",3117
+3601,"spenat färsk","Färsk bladspenat",2892
+3602,"färsk spenat","Färsk bladspenat",2892
+3603,"färsk bladspenat","Färsk bladspenat",2892
+3604,bladspenat,"Färsk bladspenat",2892
+3605,spenat,"Färsk bladspenat",2892
+3606,jouice,Juice,231
+3607,"sambal olek","Sambal Oelek",694
+3608,"sambal oelek","Sambal Oelek",694
+3609,marshmallows,"Skum Marshmallows",3410
+3610,marschmallows,"Skum Marshmallows",3410
+3611,marshmallow,"Skum Marshmallows",3410
+3612,marschmallow,"Skum Marshmallows",3410
+3613,marchmallow,"Skum Marshmallows",3410
+3614,"färska hallon","Hallon Färska",3235
+3615,"hallon färska","Hallon Färska",3235
+3616,"röd currypasta","Röd Currypasta",1890
+3617,"röd curry pasta","Röd Currypasta",1890
+3618,currypasta,"Röd Currypasta",1890
+3619,"currypasta röd","Röd Currypasta",1890
+3620,köttbullar,Köttbullar,3701
+3621,kötbullar,Köttbullar,3701
+3621,kötbullar,"Köttbullar Frysta",3343
+3621,kötbullar,"Köttbullar Färska",3342
+3622,köttbulle,Köttbullar,3701
+3623,kötbulle,Köttbullar,3701
+3624,lammfile,Lammfilé,3885
+3625,lamfile,Lammfilé,3885
+3626,saffransbullar,Saffransbullar,4038
+3627,lussebullar,Saffransbullar,4038
+3628,saffranbullar,Saffransbullar,4038
+3629,saffransbulle,Saffransbullar,4038
+3630,lussebulle,Saffransbullar,4038
+3631,lussekatter,Saffransbullar,4038
+3632,lussekatt,Saffransbullar,4038
+3633,viltfond,"Vilt/Kantarellfond Bulj.",2230
+3634,kantarellfond,"Vilt/Kantarellfond Bulj.",2230
+3635,fonder,Fonder,3713
+3636,vitlöksost,"Färskost Vitlök",3065
+3637,färskost,"Färskost Vitlök",3065
+3638,flädersaft,"Saft Fläder",3194
+3639,"fläder saft","Saft Fläder",3194
+3640,"saft fläder","Saft Fläder",3194
+3641,plommontomater,Plommontomater,2182
+3642,plommontomat,Plommontomater,2182
+3643,"plommon tomater",Plommontomater,2182
+3644,"plommon tomat",Plommontomater,2182
+3645,plomontomat,Plommontomater,2182
+3646,plomontomater,Plommontomater,2182
+3647,"tomater plommon",Plommontomater,2182
+3648,"tomat plommon",Plommontomater,2182
+3649,västerbottenost,Västerbottenost,146
+3650,västerbottensost,Västerbottenost,146
+3651,"västerbotten ost",Västerbottenost,146
+3652,"ost västerbotten",Västerbottenost,146
+3653,avorioris,Arborioris,2005
+3654,arborioris,Arborioris,2005
+3655,"avorio ris",Arborioris,2005
+3656,"arborio ris",Arborioris,2005
+3657,ättikssprit,Ättiksprit,1471
+3658,ättiksprit,Ättiksprit,1471
+3659,ättika,Ättiksprit,1471
+3660,glasnudlar,Glasnudlar,3482
+3661,"glas nudlar",Glasnudlar,3482
+3662,steksmör,"Mat & Bak Smör/Margarin",480
+3663,buljongtärning,Buljong,3712
+3664,buljong,Buljong,3712
+3664,buljong,Fonder,3713
+3665,pulverkaffe,Snabbkaffe,1001
+3666,snabbkaffe,Snabbkaffe,1001
+3667,"pulver kaffe",Snabbkaffe,1001
+3668,djurmat,"Djurmat & Tillbehör",6
+3668,djurmat,Hundmat,35
+3668,djurmat,Fågelmat,36
+3668,djurmat,Kattmat,37
+3669,machesallat,Machesallat,2203
+3670,machesallad,Machesallat,2203
+3671,mache,Machesallat,2203
+3672,"mache sallad",Machesallat,2203
+3673,"mache sallat",Machesallat,2203
+3674,plastmuggar,Engångsglas/bägare,4289
+3675,muggar,Engångsglas/bägare,4289
+3676,mugg,Engångsglas/bägare,4289
+3677,engångsmugg,Engångsglas/bägare,4289
+3678,qinoa,Quinoa,413
+3679,quinoa,Quinoa,413
+3680,qinuoa,Quinoa,413
+3681,harissa,Harissa,4169
+3682,harisa,Harissa,4169
+3683,"barnmat 12 mån","Barnmat 12 mån",302
+3684,"barnmat 12mån","Barnmat 12 mån",302
+3685,"barnmat 12m","Barnmat 12 mån",302
+3686,"barnmat 12 m","Barnmat 12 mån",302
+3687,"12 månader","Barnmat 12 mån",302
+3688,"barnmat 12 månader","Barnmat 12 mån",302
+3689,"barnmat 1 år","Barnmat 12 mån",302
+3690,"barnmat 1år","Barnmat 12 mån",302
+3691,"barnmat 8 mån","Barnmat 8 mån",246
+3692,"barnmat 8mån","Barnmat 8 mån",246
+3693,"barnmat 8m","Barnmat 8 mån",246
+3694,"barnmat 8 m","Barnmat 8 mån",246
+3695,"barnmat 8 månader","Barnmat 8 mån",246
+3696,"barnmat 8månadet","Barnmat 8 mån",246
+3697,"barnmat 4 mån","Barnmat 4 mån",303
+3698,"barnmat 4mån","Barnmat 4 mån",303
+3699,"barnmat 4 m","Barnmat 4 mån",303
+3700,"barnmat 4m","Barnmat 4 mån",303
+3701,"barnmat 4 månader","Barnmat 4 mån",303
+3702,"barnmat 4månader","Barnmat 4 mån",303
+3703,barnmat4,"Barnmat 4 mån",303
+3704,"4 mån","Barnmat 4 mån",303
+3705,"4 månader","Barnmat 4 mån",303
+3706,"barnmat 5-6 mån","Barnmat 5-6 mån",248
+3707,"barnmat 5-6mån","Barnmat 5-6 mån",248
+3708,"barnmat 5mån","Barnmat 5-6 mån",248
+3709,"barnmat 5 mån","Barnmat 5-6 mån",248
+3710,"barnmat 5 månader","Barnmat 5-6 mån",248
+3711,"barnmat 5månader","Barnmat 5-6 mån",248
+3712,"barnmat 5m","Barnmat 5-6 mån",248
+3713,"barnmat 5 m","Barnmat 5-6 mån",248
+3714,"5 månader","Barnmat 5-6 mån",248
+3715,5mån,"Barnmat 5-6 mån",248
+3716,"5 mån","Barnmat 5-6 mån",248
+3717,"6 månader","Barnmat 5-6 mån",248
+3718,"6 mån","Barnmat 5-6 mån",248
+3719,6mån,"Barnmat 5-6 mån",248
+3720,"barnmat 6 månader","Barnmat 5-6 mån",248
+3721,"barnmat 6månader","Barnmat 5-6 mån",248
+3722,"barnmat 6mån","Barnmat 5-6 mån",248
+3723,"barnmat 6 mån","Barnmat 5-6 mån",248
+3724,"barnmat 6m","Barnmat 5-6 mån",248
+3725,"barnmat 6 m","Barnmat 5-6 mån",248
+3726,"barnmat över 12 mån","Barnmat över 12 mån",301
+3727,"barnmat över 12mån","Barnmat över 12 mån",301
+3728,"över 12 mån","Barnmat över 12 mån",301
+3729,"barnmat 15 mån","Barnmat över 12 mån",301
+3730,"barnmat 15mån","Barnmat över 12 mån",301
+3731,"barnmat 24mån","Barnmat över 12 mån",301
+3732,"barnmat 24 mån","Barnmat över 12 mån",301
+3733,chorizo,"Chorizo Pålägg",3733
+3734,salami,"Salami pålägg",119
+3734,salami,"Salami Delikatess",4440
+3735,greveost,Grevéost,679
+3736,greve,Grevéost,679
+3737,"herrgårds ost",Herrgårdsost,565
+3737,"herrgårds ost","Riven Herrgårdsost",4084
+3738,herrgård,Herrgårdsost,565
+3738,herrgård,"Riven Herrgårdsost",4084
+3739,herrgårdsost,Herrgårdsost,565
+3739,herrgårdsost,"Riven Herrgårdsost",4084
+3740,hushållsost,Hushållsost,563
+3741,"hushålls ost",Hushållsost,563
+3742,goudaost,Goudaost,94
+3743,"gouda ost",Goudaost,94
+3744,guoda,Goudaost,94
+3745,guodaost,Goudaost,94
+3746,präst,Prästost,61
+3746,präst,"Prästost Lagrad",4304
+3746,präst,"Prästost Mager",4303
+3746,präst,"Prästost Mellan",746
+3746,präst,"Prästost Mild",953
+3746,präst,"Prästost Skivad",1956
+3747,prästost,Prästost,61
+3747,prästost,"Prästost Lagrad",4304
+3747,prästost,"Prästost Mager",4303
+3747,prästost,"Prästost Mellan",746
+3747,prästost,"Prästost Mild",953
+3747,prästost,"Prästost Skivad",1956
+3748,"präst ost",Prästost,61
+3748,"präst ost","Prästost Lagrad",4304
+3748,"präst ost","Prästost Mager",4303
+3748,"präst ost","Prästost Mellan",746
+3748,"präst ost","Prästost Mild",953
+3748,"präst ost","Prästost Skivad",1956
+3749,stureost,Stureost,130
+3750,sture,Stureost,130
+3751,moröter,"Vanliga morötter",3767
+3751,moröter,"Morötter i Knippe",4226
+3752,morott,"Vanliga morötter",3767
+3753,babymorötter,"Frysta Morötter",3769
+3754,"baby morötter","Frysta Morötter",3769
+3755,babymorot,"Frysta Morötter",3769
+3756,"baby morot","Frysta Morötter",3769
+3757,champijon,Champinjon,552
+3758,Champinjon,Champinjon,552
+3758,Champinjon,Skogschampinjoner,822
+3758,Champinjon,"Färska champinjoner",2461
+3759,champinjoner,Champinjon,552
+3759,champinjoner,Skogschampinjoner,822
+3760,champinion,Skogschampinjoner,822
+3760,champinion,"Färska champinjoner",2461
+3761,fårost,Fetaost,366
+3762,"får ost",Fetaost,366
+3763,janson,"Janssons Frestelse",3321
+3764,jansson,"Janssons Frestelse",3321
+3765,jansonsfestelse,"Janssons Frestelse",3321
+3766,janssonsfrestelse,"Janssons Frestelse",3321
+3768,winerbröd,Wienerbröd,3113
+3769,vinerbröd,Wienerbröd,3113
+3770,vienerbröd,Wienerbröd,3113
+3771,brödstavar,Grissini,2983
+3772,"bröd stavar",Grissini,2983
+3773,"bröd pinnar",Grissini,2983
+3774,brödpinnar,Grissini,2983
+3775,grisini,Grissini,2983
+3776,dip,Dipmix,1132
+3776,dip,Dip,476
+3777,julnötter,Hasselnötter,2889
+3777,julnötter,Valnötter,2374
+3778,tandpetare,Tandpetare,2978
+3779,jordnöt,"Jordnötter Saltade",4128
+3783,fredagsmys,Chips,707
+3783,fredagsmys,Lösviktsgodis,4570
+3783,fredagsmys,"Taco Kryddmix Original",3708
+3783,fredagsmys,Tacosås,1905
+3783,fredagsmys,"Kryddmix Burrito",3073
+3783,fredagsmys,Popcorn,987
+3784,"fredags mys",Chips,707
+3789,pastej,Leverpastej,2779
+3789,pastej,"Pastejer Övriga Sorter",1245
+3790,"Skivad ost","Skivad Ost",3919
+3791,semper,Barnmat,2806
+3797,"barnmat semper",Barnmat,2806
+3800,"lök röd",Rödlök,792
+3831,"schampoo ",Schampo,990
+3832,shampoo,Schampo,990
+3833,shampo,Schampo,990
+3839,majsmjöl,Majsstärkelse,2753
+3840,majsena,Majsstärkelse,2753
+3841,maisena,Majsstärkelse,2753
+3852,semlor,Semlor,4053
+3853,semla,Semlor,4053
+3854,knäcke,Knäckebröd,349
+3855,"gröt ",Barngröt,300
+3905,spage,Spaghetti,1453
+3957,glutenfria,"Glutenfri mix",535
+3957,glutenfria,"Glutenfria Flakes",4127
+3957,glutenfria,Guarkärnmjöl,4947
+3957,glutenfria,Linsmjöl,4950
+3957,glutenfria,Gulärtsmjöl,4953
+4261,aborgine,Aubergine,167
+4262,auborgine,Aubergine,167
+4263,abergine,Aubergine,167
+4264,aborgin,Aubergine,167
+4265,auborgin,Aubergine,167
+4266,abergin,Aubergine,167
+4267,advocado,Avokado,161
+4268,advokado,Avokado,161
+4269,äggplanta,Aubergine,167
+4270,"ägg planta",Aubergine,167
+4271,ägplanta,Aubergine,167
+4272,fusili,Fusilli,1196
+4273,fussilli,Fusilli,1196
+4274,fussili,Fusilli,1196
+4277,lamfärs,Lammfärs,2176
+4278,äamfärs,Lammfärs,2176
+4279,"lamm färs",Lammfärs,2176
+4283,"active git","Active Fit",4335
+4284,"active fit","Active Fit",4335
+4285,adelost,Ädelost,4078
+4286,"ädel ost",Ädelost,4078
+4287,"ost ädel",Ädelost,4078
+4288,alfaalfa,Alfalfafrö,2014
+4289,"alfa alfa",Alfalfafrö,2014
+4290,alfafrö,Alfalfafrö,2014
+4320,colasås,Kolasås,1234
+4321,"cola sås",Kolasås,1234
+4322,apelsiner,Apelsin,718
+4323,apelsinjuice,Apelsinjuice,1084
+4324,"apelsin juice",Apelsinjuice,1084
+4325,apelsinjos,Apelsinjuice,1084
+4326,"apelsin jos",Apelsinjuice,1084
+4327,apotek,"Åldersgräns 18 år: Receptfria Läkemedel",3949
+4328,apoteksvaror,"Åldersgräns 18 år: Receptfria Läkemedel",3949
+4329,"apoteks varor","Åldersgräns 18 år: Receptfria Läkemedel",3949
+4330,läkemedel,"Åldersgräns 18 år: Receptfria Läkemedel",3949
+4340,broccolli,Broccoli,487
+4340,broccolli,"Broccoli Färsk",3257
+4340,broccolli,"Broccoli Fryst",1631
+4341,brocollio,Broccoli,487
+4342,brocolli,Broccoli,487
+4342,brocolli,"Broccoli Färsk",3257
+4342,brocolli,"Broccoli Fryst",1631
+4343,broccolli',"Broccoli Färsk",3257
+4344,brocholli,"Broccoli Färsk",3257
+4344,brocholli,"Broccoli Fryst",1631
+4345,brockolli,"Broccoli Fryst",1631
+4351,baguett,"Baguette Fullkorn/Fiber",3112
+4351,baguett,"Baguette Halv",4005
+4351,baguett,"Baguette Mini",2984
+4351,baguett,Vitlöksbaguette,3111
+4352,bauguette,"Baguette Fullkorn/Fiber",3112
+4352,bauguette,"Baguette Halv",4005
+4352,bauguette,"Baguette Hel",4001
+4352,bauguette,"Baguette Mini",2984
+4352,bauguette,Vitlöksbaguette,3111
+4353,baugett,"Baguette Fullkorn/Fiber",3112
+4353,baugett,"Baguette Halv",4005
+4353,baugett,"Baguette Hel",4001
+4354,baugette,"Baguette Fullkorn/Fiber",3112
+4354,baugette,"Baguette Halv",4005
+4354,baugette,"Baguette Hel",4001
+4354,baugette,Vitlöksbaguette,3111
+4354,baugette,Baguette,392
+4355,bagett,"Baguette Hel",4001
+4355,bagett,"Baguette Mini",2984
+4355,bagett,Vitlöksbaguette,3111
+4356,bauguett,"Baguette Hel",4001
+4356,bauguett,"Baguette Mini",2984
+4356,bauguett,Vitlöksbaguette,3111
+4357,bauggete,"Baguette Mini",2984
+4358,baggett,"Baguette Mini",2984
+4359,baguette,"Baguette Mini",2984
+4360,"blöjor pampers","Active Fit",4335
+4360,"blöjor pampers","Baby Dry",4337
+4360,"blöjor pampers","Easy Up",4339
+4360,"blöjor pampers","New Baby",4336
+4364,hamburgerdressing,"Amerikansk Dressing",1503
+4365,hambugardressing,"Amerikansk Dressing",1503
+4372,aborio,Arborioris,2005
+4373,abroriris,Arborioris,2005
+4376,aivar,Ajvar,2304
+4377,"ajvar relis",Ajvar,2304
+4378,aijvar,Ajvar,2304
+4379,relish,Ajvar,2304
+4380,"ajvar relich",Ajvar,2304
+4384,alcoholfritt,"Alkoholfritt vin",4378
+4387,aluminumfolie,Aluminiumfolie,1320
+4388,aluminiumfole,Aluminiumfolie,1320
+4389,grillfolie,Aluminiumfolie,1320
+4392,"apelsinjuice koncentrat","Apelsinjuice - Koncentrat",3952
+4395,babybell,Babybelost,4077
+4396,babyost,Babybelost,4077
+4397,babybel,Babybelost,4077
+4402,bakpotatisar,Bakpotatis,270
+4403,"bak potatis",Bakpotatis,270
+4404,"bak potatisar",Bakpotatis,270
+4409,bernaise,Bearnaisesås,1261
+4410,"bearnaiss sås",Bearnaisesås,1261
+4411,bearnaiss,Bearnaisesås,1261
+4412,bearniesås,Bearnaisesås,1261
+4413,bearneise,Bearnaisesås,1261
+4414,beskvier,Biskvier,1422
+4415,beskvi,Biskvier,1422
+4416,biskvi,Biskvier,1422
+4417,bicarbonat,Bikarbonat,1836
+4418,bigarråer,"Körsbär Färska",4318
+4419,bigarrå,"Körsbär Färska",4318
+4420,bigaråer,"Körsbär Färska",4318
+4421,bigarå,"Körsbär Färska",4318
+4422,binder,Bindor,1049
+4423,binda,Bindor,1049
+4424,"blackeye bönor","Black Eye Bönor",2698
+4425,blackeyebönor,"Black Eye Bönor",2698
+4426,"black eyed bönor","Black Eye Bönor",2698
+4427,"blackeyed bönor","Black Eye Bönor",2698
+4428,blackeyedbönor,"Black Eye Bönor",2698
+4429,"blandade bönor","Blandade bönor",2674
+4430,"blandad bönor","Blandade bönor",2674
+4431,blandbönor,"Blandade bönor",2674
+4432,"block choklad","Ljus Blockchoklad",2776
+4432,"block choklad","Mörk Blockchoklad",2410
+4432,"block choklad","Vit Blockchoklad",2778
+4432,"block choklad","Blockchoklad Mint",3412
+4433,blockshoklad,"Ljus Blockchoklad",2776
+4433,blockshoklad,"Mörk Blockchoklad",2410
+4433,blockshoklad,"Vit Blockchoklad",2778
+4433,blockshoklad,"Blockchoklad Mint",3412
+4434,"block shoklad","Ljus Blockchoklad",2776
+4434,"block shoklad","Mörk Blockchoklad",2410
+4434,"block shoklad","Vit Blockchoklad",2778
+4435,"blocka shoklad","Blockchoklad Mint",3412
+4436,blomkålshuvud,"Blomkål Färsk",3256
+4437,blomkol,"Blomkål Färsk",3256
+4438,bodylotion,Hudlotion,1028
+4439,lotion,Hudlotion,1028
+4440,bomullspads,Bomullsrondeller,1702
+4441,bomullpads,Bomullsrondeller,1702
+4442,bomullspinne,Bomullspinnar,280
+4443,bomullstops,Bomullspinnar,280
+4444,bommulstops,Bomullspinnar,280
+4445,bommullstops,Bomullspinnar,280
+4446,bommullspinnar,Bomullspinnar,280
+4447,gaständare,Tändare,4118
+4448,grilltändare,Tändare,4118
+4449,braständare,Tändare,4118
+4450,bröstmjölksersättning,Modersmjölksersättning,299
+4457,canelinibönor,Cannellinibönor,2696
+4458,cannelinibönor,Cannellinibönor,2696
+4459,canellinibönor,Cannellinibönor,2696
+4460,cappelini,Capellini,3488
+4461,cappellini,Capellini,3488
+4462,cesardressing,Caesardressing,757
+4463,"cesar dressing",Caesardressing,757
+4464,caesardressing,Caesardressing,757
+4465,"caesar dressing",Caesardressing,757
+4466,cesarsallad,Caesarsallad,3804
+4467,"cesar sallad",Caesarsallad,3804
+4468,caesarsallad,Caesarsallad,3804
+4469,"caesar sallad",Caesarsallad,3804
+4470,charon,Sharon,3880
+4473,"citron olja",Citronolja,1285
+4475,croissant,Croissanter,3116
+4476,crossiant,Croissanter,3116
+4477,crossant,Croissanter,3116
+4478,crissant,Croissanter,3116
+4479,daddlar,"Dadlar Färska",3232
+4480,dadel,"Dadlar Färska",3232
+4481,dadler,"Dadlar Färska",3232
+4482,daddel,"Dadlar Färska",3232
+4492,klädrulle,Klädvårdsrulle,3740
+4493,klädroller,Klädvårdsrulle,3740
+4494,"kläd roller",Klädvårdsrulle,3740
+4507,plasthandskar,Städhandskar,3916
+4508,plasthandske,Städhandskar,3916
+4509,handske,Städhandskar,3916
+4510,handskar,Städhandskar,3916
+4511,"plast handske",Städhandskar,3916
+4512,"plast handskar",Städhandskar,3916
+4513,sambaloelek,"Sambal Oelek",694
+4514,sambalolek,"Sambal Oelek",694
+4515,"soya yoghurt",Soyayoghurt,4386
+4516,soygurt,Soyayoghurt,4386
+4517,soyghurt,Soyayoghurt,4386
+4518,"soya yogurt",Soyayoghurt,4386
+4519,"yoghurt soya",Soyayoghurt,4386
+4520,"toa papper",Toalettpapper,55
+4521,"toalett papper",Toalettpapper,55
+4522,"toalet paper",Toalettpapper,55
+4523,"toalett paper",Toalettpapper,55
+4524,"toa paper",Toalettpapper,55
+4525,toapaper,Toalettpapper,55
+4526,toalettpaper,Toalettpapper,55
+4527,tuggumi,Tuggummi,318
+4528,tugumi,Tuggummi,318
+4529,tugummi,Tuggummi,318
+4530,tugggummi,Tuggummi,318
+4531,ungsrengöring,Ugnsrengöring,1237
+4532,"ugns rengöring",Ugnsrengöring,1237
+4533,"ungs rengöring",Ugnsrengöring,1237
+4534,vitabönor,"Vita Bönor",2108
+4535,vitabönnor,"Vita Bönor",2108
+4536,"vit böna","Vita Bönor",2108
+4537,"bönor vita","Vita Bönor",2108
+4538,"wc rent",WC-Rengöring,2786
+4539,wcrent,WC-Rengöring,2786
+4540,wc-rent,WC-Rengöring,2786
+4541,kikärter,Kikärtor,2668
+4542,kikärta,Kikärtor,2668
+4543,"kik ärtor",Kikärtor,2668
+4544,"kik ärter",Kikärtor,2668
+4545,"kik ärta",Kikärtor,2668
+4546,anju,"Päron Anjou",3245
+4547,"päron anjo","Päron Anjou",3245
+4548,"päron anju","Päron Anjou",3245
+4549,baguete,Baguette,392
+4550,bagutte,Baguette,392
+4551,bagguette,Baguette,392
+4552,baugete,Baguette,392
+4553,bagguete,Baguette,392
+4554,babyservett,Tvättservetter,4292
+4555,babyservetter,Tvättservetter,4292
+4556,"baby servett",Tvättservetter,4292
+4557,"baby servetter",Tvättservetter,4292
+4558,"tvätt servetter",Tvättservetter,4292
+4559,"tvätt servett",Tvättservetter,4292
+4560,"våt servett",Tvättservetter,4292
+4564,geleblandning,"Godispåse - Gelegodis",365
+4565,"gele blandning","Godispåse - Gelegodis",365
+4566,"gelé godis","Godispåse - Gelegodis",365
+4567,hummos,Hummus,2898
+4568,hommus,Hummus,2898
+4569,hoummus,Hummus,2898
+4570,hoummos,Hummus,2898
+4571,hommos,Hummus,2898
+4572,jordgubbe,"Jordgubbar Fryst",2528
+4572,jordgubbe,"Jordgubbar Färska",797
+4573,mozarela,Mozzarellaost,320
+4574,mozzarela,Mozzarellaost,320
+4575,plantjord,Blomjord,312
+4576,"plant jord",Blomjord,312
+4577,planteringsjord,Blomjord,312
+4578,"planterings jord",Blomjord,312
+4579,quornfärs,"Vegetarisk Färs",3312
+4580,"quorn färs","Vegetarisk Färs",3312
+4581,"röd pesto","Pesto Röd",3587
+4582,"grön pesto","Pesto Grön",3588
+4583,svinto,Stålull,1418
+4584,swinto,Stålull,1418
+4585,stålull,Stålull,1418
+4586,"stål ull",Stålull,1418
+4587,"tvål ull",Stålull,1418
+4588,bakpotatis,Bakplåtspapper,1379
+4589,arrabiata,"Pastasås Arrabbiata",3107
+4590,arabbiata,"Pastasås Arrabbiata",3107
+4591,arabiata,"Pastasås Arrabbiata",3107
+4592,babyspenat,"Färsk bladspenat",2892
+4593,kokosflingor,"Riven kokos",1712
+4594,cocosflingor,"Riven kokos",1712
+4595,"cocos flingor","Riven kokos",1712
+4596,"kokos flingor","Riven kokos",1712
+4597,coccosflingor,"Riven kokos",1712
+4598,"coccos flingor","Riven kokos",1712
+4599,fiskpinne,Fiskpinnar,1371
+4600,"fisk pinne",Fiskpinnar,1371
+4601,"fisk pinnar",Fiskpinnar,1371
+4602,glasputs,Fönsterputs,1305
+4603,"fönster puts",Fönsterputs,1305
+4604,"glas puts",Fönsterputs,1305
+4605,glasstrut,Glasstrutar,570
+4606,"glass strut",Glasstrutar,570
+4607,"glass strutar",Glasstrutar,570
+4608,glasspinne,Glasspinnar,437
+4609,"glass pinnar",Glasspinnar,437
+4610,"glass pinne",Glasspinnar,437
+4611,"golv mopp",Golvmopp,4409
+4612,mopp,Golvmopp,4409
+4613,moppar,Golvmopp,4409
+4614,golvmoppar,Golvmopp,4409
+4615,hink,Skurhink,4410
+4616,mopphink,Skurhink,4410
+4617,"skur hink",Skurhink,4410
+4618,sopborste,Sopborstar,4411
+4619,maijzena,Redning,473
+4624,qorn,"Vegetariska produkter",1169
+4625,hamburgerost,"Cheddarost i Skivor",3619
+4626,"hamburgare ost","Cheddarost i Skivor",3619
+4627,"hamburger ost","Cheddarost i Skivor",3619
+4628,"cheddar ost","Cheddarost i Skivor",3619
+4629,kumin,Kummin,1841
+4630,köttbular,"Köttbullar Frysta",3343
+4630,köttbular,"Köttbullar Färska",3342
+4631,kötbular,"Köttbullar Frysta",3343
+4631,kötbular,"Köttbullar Färska",3342
+4632,sqash,Zucchini,166
+4633,hundpåsar,Hundbajspåse,3881
+4634,bajspåsar,Hundbajspåse,3881
+4635,hundbajspåse,Hundbajspåse,3881
+4636,hundbajspåsar,Hundbajspåse,3881
+4637,vinegär,Vinäger,354
+4638,digestivkex,Digestive,1133
+4639,digistivkex,Digestive,1133
+4640,digistivekex,Digestive,1133
+4643,fisksgratäng,Fiskgratäng,1638
+4644,"fisk gratäng",Fiskgratäng,1638
+4645,bandpasta,Tagliatelle,1462
+4645,bandpasta,"Tagliatelle Färsk",2715
+4645,bandpasta,Pappardelle,2158
+4645,bandpasta,"Pappardelle Färsk",2664
+4645,bandpasta,"Fettuccini Färsk",2952
+4646,blomsterjord,Blomjord,312
+4647,blommsterjord,Blomjord,312
+4648,"blomster jord",Blomjord,312
+4649,"chilli con carne","Chili Con Carne",1520
+4650,drakfrukt,Pitahaya,3234
+4651,"drak frukt",Pitahaya,3234
+4652,knäckbröd,Knäckebröd,349
+4653,kokosnötter,Kokosnöt,4323
+4654,"kokos nöt",Kokosnöt,4323
+4655,kökspapper,Hushållspapper,512
+4658,köttfärsås,"Färdiga Köttfärssåser",1493
+4659,"köttfärs sås","Färdiga Köttfärssåser",1493
+4660,köttfärssås,"Färdiga Köttfärssåser",1493
+4661,tortillia,"Tortilla - Små",3663
+4661,tortillia,"Tortilla Chili & Jalapeno",3611
+4661,tortillia,"Tortilla Tomater & Örter",3616
+4661,tortillia,"Tortilla Whole Wheat",3618
+4661,tortillia,Tortilla,1697
+4662,topz,Bomullspinnar,280
+4663,airwick,Luftuppfriskare,1116
+4664,"air wick",Luftuppfriskare,1116
+4665,luftfräschare,Luftuppfriskare,1116
+4666,"all brain","Flingor - All Bran",4285
+4667,allbrain,"Flingor - All Bran",4285
+4668,baccon,Bacon,3330
+4668,baccon,"Bacon Skivat",753
+4668,baccon,"Bacon Tärnat",1270
+4669,"bacon tärnad","Bacon Tärnat",1270
+4670,bakpapper,Bakplåtspapper,1379
+4673,disktabletter,"Maskindiskmedel Tabletter",4418
+4674,diskmaskinstabletter,"Maskindiskmedel Tabletter",4418
+4675,diskmedelstabletter,"Maskindiskmedel Tabletter",4418
+4677,dippmix,Dipmix,1132
+4678,"dip mix",Dipmix,1132
+4679,"dipp mix",Dipmix,1132
+4680,läskbackar,Drickabackar,3729
+4682,familjekasse,"Familjekasse 5 dagar",3900
+4683,familjekassar,"Familjekasse 5 dagar",3900
+4684,familjekassen,"Familjekasse 5 dagar",3900
+4685,fruktkorg,Fruktkassar,3902
+4685,fruktkorg,"Frukt- och Grönsakskassar",3934
+4686,fäboknäcke,"Fäbodknäcke Surdeg",4232
+4687,fäbodsknäcke,"Fäbodknäcke Surdeg",4232
+4688,fädbodknäcke,"Fäbodknäcke Surdeg",4232
+4689,fänkol,"Fänkål Färsk",2883
+4689,fänkol,"Fänkål Krydda",2884
+4690,gelantin,Gelatin,1223
+4690,gelantin,Gelatinblad,3423
+4690,gelantin,Gelatinpulver,3424
+4691,grönsåpa,"Såpa Flytande",1717
+4693,hoisinsås,"Hoi Sin Sauce",2489
+4694,"hoisin sås","Hoi Sin Sauce",2489
+4695,hudkräm,Hudlotion,1028
+4696,hudcreme,Hudlotion,1028
+4697,"kondenserat mjölk",Torrmjölk,456
+4698,kräftskjärtar,Kräftstjärtar,1316
+4699,grillkol,Briketter,4380
+4714,alluminiumfolie,Aluminiumfolie,1320
+4715,alluminium,Aluminiumfolie,1320
+4717,brikett,Briketter,4380
+4718,briket,Briketter,4380
+4719,bricket,Briketter,4380
+4720,brickett,Briketter,4380
+4721,briketer,Briketter,4380
+4722,bricketter,Briketter,4380
+4723,champinioner,"Färska champinjoner",2461
+4724,shampinjon,"Färska champinjoner",2461
+4727,chilifrukt,Chilifrukter,3009
+4727,chilifrukt,"Chilipeppar Färsk",4319
+4728,crabsticks,"Surimi & Crabsticks",2980
+4729,crabstick,"Surimi & Crabsticks",2980
+4730,crab,"Surimi & Crabsticks",2980
+4731,faijta,"Kryddmix Fajita",3074
+4731,faijta,"Fajita Spice Mix Cilant&Lime",3610
+4732,"glad pack",Plastfolie,1066
+4733,grapejuice,Grapefruktjuice,3162
+4734,grapefruktsjuice,Grapefruktjuice,3162
+4735,"grapefrukt juice",Grapefruktjuice,3162
+4736,"grape juice",Grapefruktjuice,3162
+4737,hamburgedressing,Hamburgerdressing,1500
+4738,jordnötsmör,Jordnötssmör,1344
+4739,"jordnöt smör",Jordnötssmör,1344
+4740,mackaroner,Makaroner,1446
+4740,mackaroner,"Makaroner Fullkorn",3655
+4741,makaron,Makaroner,1446
+4741,makaron,"Makaroner Fullkorn",3655
+4742,mackaron,Makaroner,1446
+4742,mackaron,"Makaroner Fullkorn",3655
+4743,makrillfile,"Makrill i Tomatsås",1798
+4743,makrillfile,Makrillfileer,1253
+4744,makrillfileer,"Makrill i Tomatsås",1798
+4744,makrillfileer,Makrillfileer,1253
+4745,makrillfiler,"Makrill i Tomatsås",1798
+4745,makrillfiler,Makrillfileer,1253
+4746,pankaka,"Pannkakor & Plättar",435
+4747,pankakor,"Pannkakor & Plättar",435
+4748,plätar,"Pannkakor & Plättar",435
+4749,plätt,"Pannkakor & Plättar",435
+4750,pappertallrikar,Engångstallrikar,4288
+4751,papperstallrikar,Engångstallrikar,4288
+4752,papperstallrik,Engångstallrikar,4288
+4753,papptallrik,Engångstallrikar,4288
+4754,papptallrikar,Engångstallrikar,4288
+4755,ruccula,Ruccolasallat,2045
+4756,rucula,Ruccolasallat,2045
+4757,wookgrönsaker,"Wokgrönsaker Burk",3426
+4757,wookgrönsaker,"Wokmix Fryst",1635
+4757,wookgrönsaker,Wokmix,491
+4758,wokgrönsaker,"Wokmix Fryst",1635
+4758,wokgrönsaker,Wokmix,491
+4759,bassilika,"Basilika - färsk",2646
+4760,basilicka,"Basilika - färsk",2646
+4765,grillsasong,Grilltillbehör,544
+4765,grillsasong,"Såser & Aromsmör",200
+4765,grillsasong,"Glaze Allround",3403
+4765,grillsasong,Allroundmarinad,3407
+4765,grillsasong,"Grillolja Vitlök",3408
+4765,grillsasong,Lammrostbiff,4531
+4766,sommargrillsasong,Grillkol,4379
+4766,sommargrillsasong,Tändvätska,4383
+4766,sommargrillsasong,"Fläskfile Färsk",4089
+4766,sommargrillsasong,Färskpotatis,1527
+4766,sommargrillsasong,Chorizo,1402
+4766,sommargrillsasong,"Oxfilé Skivor",4308
+4766,sommargrillsasong,"Fläskkarré Skivor",917
+4766,sommargrillsasong,Fläskkotlett,845
+4766,sommargrillsasong,Entrecote,853
+4766,sommargrillsasong,Kalventrecote,933
+4766,sommargrillsasong,Grillolja,3720
+4766,sommargrillsasong,"Grillolja Allround",3649
+4766,sommargrillsasong,"Grillolja Caramba",3394
+4766,sommargrillsasong,"Grillolja Chili",3396
+4766,sommargrillsasong,"Grillolja Citrus",3667
+4766,sommargrillsasong,"Grillolja Hickory",3397
+4766,sommargrillsasong,"Grillolja Honey",3398
+4766,sommargrillsasong,"Grillolja Lime",3399
+4766,sommargrillsasong,"Grillolja Original",3395
+4766,sommargrillsasong,"Grillolja Sweet&Chili",3409
+4766,sommargrillsasong,"Grillolja Vitlök",3408
+4766,sommargrillsasong,Glaze,3719
+4766,sommargrillsasong,"Glaze Allround",3403
+4766,sommargrillsasong,"Glaze Ananas",3624
+4766,sommargrillsasong,"Glaze Caribbean",3405
+4766,sommargrillsasong,"Glaze Chili",3621
+4766,sommargrillsasong,"Glaze Hickory",3402
+4766,sommargrillsasong,"Glaze Spray",3404
+4766,sommargrillsasong,"Glaze Vitlök",3400
+4766,sommargrillsasong,Marinader,327
+4766,sommargrillsasong,Allroundmarinad,3407
+4766,sommargrillsasong,Cajunmarinad,1881
+4766,sommargrillsasong,Chilimarinad,3393
+4766,sommargrillsasong,Fiskmarinad,3417
+4766,sommargrillsasong,Honungsmarinad,1885
+4766,sommargrillsasong,Kycklingmarinad,1886
+4766,sommargrillsasong,Hickorymarinad,3372
+4766,sommargrillsasong,"Provencalsk Marinad",1880
+4766,sommargrillsasong,Rödvinsmarinad,1883
+4766,sommargrillsasong,"Torr Marinad",3782
+4766,sommargrillsasong,Aioli,1262
+4766,sommargrillsasong,BBQ-Sås,1115
+4766,sommargrillsasong,"BBQ-sås Hickory",3380
+4766,sommargrillsasong,"BBQ-sås Hot",3388
+4766,sommargrillsasong,"BBQ-sås Original",3385
+4766,sommargrillsasong,"Bearnaisesås Färdig",4426
+4766,sommargrillsasong,Mangorajasås,2039
+4766,sommargrillsasong,Grillkrydda,1825
+4766,sommargrillsasong,Kabanoss,2738
+4766,sommargrillsasong,"Kryddad Korv",1076
+4766,sommargrillsasong,Halloumi,2888
+4766,sommargrillsasong,Grilloumiost,3951
+4766,sommargrillsasong,Grillpinnar,3370
+4766,sommargrillsasong,Potatissallad,2334
+4766,sommargrillsasong,Grillsallad,3311
+4766,sommargrillsasong,Aubergine,167
+4766,sommargrillsasong,Zucchini,166
+4766,sommargrillsasong,"Grön Paprika",832
+4766,sommargrillsasong,"Röd Paprika",793
+4766,sommargrillsasong,"Orange Paprika",830
+4766,sommargrillsasong,"Gul Paprika",829
+4766,sommargrillsasong,"Färska champinjoner",2461
+4766,sommargrillsasong,Salladslök,2190
+4766,sommargrillsasong,Rödlök,792
+4766,sommargrillsasong,"Vanliga Tomater",2894
+4766,sommargrillsasong,Kvisttomater,2120
+4766,sommargrillsasong,Lammfilé,3885
+4766,sommargrillsasong,Lammkotlett,923
+4767,plastpåsar,Fryspåsar,3341
+4768,fryspåse,Fryspåsar,3341
+4769,"frys påsar",Fryspåsar,3341
+4770,"frys påse",Fryspåsar,3341
+4771,"plast påsar",Fryspåsar,3341
+4771,"plast påsar",Plastpåsar,1068
+4772,"plast påse",Plastpåsar,1068
+4776,fiskpanetter,"Sprödbakad Torskfilé",2576
+4778,nypotatis,Färskpotatis,1527
+4779,päroncider,"Cider Päron",1785
+4780,äppelcider,"Cider Äpple",1784
+4781,äpplecider,"Cider Äpple",1784
+4782,soyakorv,Sojakorv,2030
+4782,soyakorv,"Vegetarisk Korv",3319
+4783,tsatsiki,Tzatziki,2104
+4784,"purjo lök",Purjolök,820
+4785,"greve ost",Grevéost,679
+4786,"herrgård ost",Herrgårdsost,565
+4786,"herrgård ost","Riven Herrgårdsost",4084
+4787,tacokrydda,"Taco Kryddmix Original",3708
+4788,taco,Tacosås,1905
+4788,taco,"Texmexsås & Salsa",2295
+4789,toaborstar,Toaborste,3987
+4790,toalettborstar,Toaborste,3987
+4791,"turkisk yogurt","Matlagningsyoghurt Turkisk",3472
+4792,kusar,Styckbröd,4690
+4793,dambindor,Bindor,1049
+4794,dambinda,Bindor,1049
+4795,marängbotten,Marängbottnar,2369
+4796,marängbottnen,Marängbottnar,2369
+4800,avacado,Avokado,161
+4801,"ben och jerry","Glass Ben & Jerry's",3333
+4802,"ben och jerrys","Glass Ben & Jerry's",3333
+4803,"ben & jerrys","Glass Ben & Jerry's",3333
+4804,lösgodis,Lösviktsgodis,4570
+4805,plockgodis,Lösviktsgodis,4570
+4807,myggmedel,Myggmedel,4430
+4813,smågodis,Lösviktsgodis,4570
+4818,abonnemang,Matkasse,3856
+4819,abbonemang,Matkasse,3856
+4820,abbonnemang,Matkasse,3856
+5098,kvarg,"Kvarg 10 procent",3439
+5099,muesli,Müsli,1787
+5852,Småyoghurt,"Yoghurt Portionsförp.",999
+5853,yuoghurt,Yoghurt,245
+5921,"fransk senap","Senap Dijon",1004
+6300,yogurth,Yoghurt,245
+6729,Stearinljus,Ljus,2977
+6729,Stearinljus,Kronljus,4114
+6880,tacos,Texmex,447
+6880,tacos,Tortilla,1697
+6913,tagiatelle,Tagliatelle,1462
+6990,marchall,Marschall,2975
+6991,marshall,Marschall,2975
+6992,marchaller,Marschall,2975
+6993,marshaller,Marschall,2975
+6994,"schotch brite",Rengöringssvamp,3964
+6995,"schotch bright",Rengöringssvamp,3964
+6996,"scotch bright",Rengöringssvamp,3964
+6997,bright,Rengöringssvamp,3964
+6998,blomnäring,Växtnäringspreparat,453
+6999,växtnäring,Växtnäringspreparat,453
+7000,tomatsås,"Pastasås Arrabbiata",3107
+7000,tomatsås,"Pastasås Basilika",3098
+7000,tomatsås,"Pastasås Classico",4027
+7001,säkring,Proppar,3914
+7002,säkringar,Proppar,3914
+7008,pannkakssirap,"Sirap Lönn",2962
+7071,balsamicovinäger,Balsamvinäger,1476
+7071,balsamicovinäger,"Balsamvinäger Vit",1477
+7150,biffstek,Ryggbiff,881
+7158,pepparot,Pepparrot,181
+7159,blomsternäring,Växtnäringspreparat,453
+7160,lakris,Lakrits,385
+7184,Schintzel,Schnitzel,3296
+7278,harrissa,Harissa,4169
+7279,harrisa,Harissa,4169
+7329,tortelini,Tortellini,1314
+7330,schampo,Schampo,990
+7352,drickyogurt,Drickyoghurt,2792
+7353,drickyoughurt,Drickyoghurt,2792
+7354,drickyougurt,Drickyoghurt,2792
+7505,fika,"Bullar & Wienerbröd",207
+7505,fika,Wienerbröd,3113
+7505,fika,"Fikabröd & Tårtor",209
+7505,fika,Kondisbitar,202
+7505,fika,"Kanelsnäckor & Kanelbullar",1980
+7505,fika,Bullar,485
+7505,fika,"Tårtor & Efterrätter",210
+7505,fika,Gifflar,1774
+7505,fika,Kardemummabullar,1624
+7505,fika,"Munkar & Donuts",3029
+7505,fika,"Tårtor, Eget Bageri",3806
+7539,"sallad i påse",Salladsmix,2197
+7541,"harry kuvert","Haricot Verts",506
+7634,pepakakor,Pepparkakor,375
+7635,peparkakor,Pepparkakor,375
+7652,bak,Engångsbakformar,3337
+7653,formar,Engångsbakformar,3337
+7654,bakform,Engångsbakformar,3337
+7717,glasspaket,Paketglass,3322
+7718,Gräddglass,Paketglass,3322
+7719,pistatj,Pistageglass,4478
+7720,äppelglass,Äppelsorbet,4479
+7721,äpplesorbet,Äppelsorbet,4479
+7722,äppelciderglass,Äppelsorbet,4479
+7723,kakglass,Pepparkaksglass,4477
+7724,pepparkakaglass,Pepparkaksglass,4477
+7725,kakaglass,Pepparkaksglass,4477
+7726,cookie,Pepparkaksglass,4477
+7727,gingerbread,Pepparkaksglass,4477
+7728,nötglass,Pistageglass,4478
+7784,varmkorvsbröd,Korvbröd,1227
+7786,Hjortronsalt,Hjorthornssalt,1840
+7787,blomgödning,Växtnäringspreparat,453
+7788,blomstergödning,Växtnäringspreparat,453
+7789,filoDeg,Filodeg,1139
+7879,"spring onion",Salladslök,2190
+8076,ättiksgurka,Smörgåsgurka,3022
+8078,mashmallows,"Skum Marshmallows",3410
+8079,kaki,Sharon,3880
+8082,doftspray,Luftuppfriskare,1116
+8229,melittapåsar,Kaffefilter,306
+8229,melittapåsar,"Kaffefilter Oblekta",307
+8238,frystape,Frysclips/Frystejp,1499
+8315,risgryn,Grötris,1709
+8402,senapsfrön,Senapsfrö,1827
+8702,isbergssalad,Isbergssallat,791
+8703,isbergssalat,Isbergssallat,791
+8728,våfflor,Våffelmix,1454
+8885,honungsyogerth,Honungsyoghurt,3458
+8886,honungsyogert,Honungsyoghurt,3458
+9125,tapernade,Tapenade,2103
+9223,remulade,Remouladsås,1502
+9225,coctailmorötter,Minimorötter,2809
+9226,cocktailmorötter,Minimorötter,2809
+9276,kottlet,"Fläskkarré Skivor",917
+9276,kottlet,Fläskkotlett,845
+9680,emmenthaler,Emmentalerost,422
+9961,peccorino,Pecorinoost,3687
+9961,peccorino,"Riven Pecorinoost",81
+10017,yourghut,Yoghurt,245
+10018,safran,Saffran,1820
+10149,sockerbönor,Sugarsnaps,4230
+10288,rödbettor,Rödbetssallad,736
+10294,diskmaskin,Maskindiskmedel,2896
+10295,"naturell yogurth","Yoghurt Naturell",427
+10316,maskindisksalt,Diskmaskinsrengöring,4100
+10561,alpro,"Växtbaserad gräddersättning",4466
+10562,auto_alpro,"Växtbaserad gräddersättning",4466
+10563,grädde,Matlagningsgrädde,411
+10563,grädde,Vispgrädde,424
+10608,pekktin,Gelatin,1223
+10609,pektin,Gelatin,1223
+10609,pektin,Syltsocker,1589
+10636,örter,"Basilika - färsk",2646
+10636,örter,"Körvel - färsk",3861
+10636,örter,"Timjan - färsk",2645
+10636,örter,Thaibasilika,3835
+10636,örter,"Koriander - färsk",2693
+10636,örter,"Oregano - färsk",2688
+10636,örter,"Salvia - färsk",2690
+10636,örter,"Mynta - färsk",2997
+10636,örter,"Rosmarin - färsk",3006
+10637,ört,"Basilika - färsk",2646
+10637,ört,"Körvel - färsk",3861
+10637,ört,"Timjan - färsk",2645
+10637,ört,Thaibasilika,3835
+10637,ört,"Koriander - färsk",2693
+10637,ört,"Oregano - färsk",2688
+10637,ört,"Salvia - färsk",2690
+10637,ört,"Mynta - färsk",2997
+10637,ört,"Rosmarin - färsk",3006
+10799,ketjup,Tomatketchup,328
+10978,Färdigmat,"Portionsrätter Kyckling",2522
+10978,Färdigmat,"Portionsrätter Veg",2919
+10978,Färdigmat,"Färdiglagat & Förberett",5536
+11090,solrosfrön,"Solroskärnor Naturella",3513
+11090,solrosfrön,Solroskärnor,581
+11091,solrosfrö,"Solroskärnor Naturella",3513
+11541,Lösviktsgodis,Lösviktsgodis,4570
+11678,lördagsgodis,Lösviktsgodis,4570
+11696,tomat,Tomater,160
+11774,äggklocka,Kökstimer,4508
+11775,äggtimer,Kökstimer,4508
+11776,köksklocka,Kökstimer,4508
+11777,"taco sås",Tacosås,1905
+11778,tacosåss,Tacosås,1905
+11779,takosås,Tacosås,1905
+11780,tackosås,Tacosås,1905
+11781,"Färsk korv",Salsiccia,2880
+11793,söndagsgodis,Lösviktsgodis,4570
+11794,helgmys,Lösviktsgodis,4570
+11832,fäsk,Fisk,502
+11900,vitlöksklyfta,Vitlök,623
+11900,vitlöksklyfta,"Vitlök Färsk",3271
+11900,vitlöksklyfta,"Vitlök Vanlig",2681
+11901,"god tomatsås",Tomatsås,2172
+11902,"creme fraîche ev","Creme Fraiche",2903
+11902,"creme fraîche ev","Creme Fraiche Naturell",263
+11903,"mexikansk kryddblandning","Kryddmix Mexican",4203
+11907,limefrukt,Lime,790
+12012,sampoo,Schampo,990
+12014,sollotion,Solkräm,4216
+12015,solcreme,Solkräm,4216
+12016,sunblock,Solkräm,4216
+12017,solskydd,Solkräm,4216
+12074,Nypponsoppa,Nyponsoppa,1614
+12075,nyppon,Nyponsoppa,1614
+12076,nypponsopa,Nyponsoppa,1614
+12247,kycklingbröstfile,"Kycklingfile Fryst",2509
+12247,kycklingbröstfile,"Kycklingfilé Färsk",5980
+12247,kycklingbröstfile,"Majskycklingfile fryst",974
+12269,kaffebröd,"Fikabröd & Tårtor",209
+12512,lårfilé,Kycklinglårfile,958
+12677,kycklingfilé,Kycklingfile,957
+12716,mögelost,Ädelost,4078
+12716,mögelost,Gorgonzola,685
+12716,mögelost,Roquefort,3035
+12829,pumpafrö,Pumpakärnor,2844
+12830,pumpafrön,Pumpakärnor,2844
+12831,"pumpa frö",Pumpakärnor,2844
+13002,havssalt,Havssalt,1189
+13134,persiljekvistar,"Persilja - färsk",2643
+13238,"arla köket","Kesella Jordgubb-Lime",4088
+13238,"arla köket","Kvarg 10 procent",3439
+13238,"arla köket","Kesella Vanilj",3440
+13399,"rökt lax","Lax Varmrökt",4458
+13399,"rökt lax","Lax Kallrökt",2300
+13411,dammsugare,Punschrullar,4047
+13650,grabbkväll,"Salta Pinnar",3673
+13671,"mörk cho","Chokladkaka Mörk",3879
+15050,"Müsli ",Müsli,1787
+15150,"mjölk lätt",Lättmjölk,1730
+15198,melodifestival,Schlagerkassen,4657
+15199,mello,Schlagerkassen,4657
+15296,"dulce de leche","Kondenserad mjölk",4435
+15323,leveranspass,Leveranskort,4421
+15790,oystersauce,Ostronsås,2853
+15811,färdigrätter,Portionsrätter,3293
+15811,färdigrätter,"Portionsrätter Fisk",2918
+15811,färdigrätter,"Portionsrätter Kyckling",2522
+15811,färdigrätter,"Portionsrätter Kött",2917
+15811,färdigrätter,"Portionsrätter Veg",2919
+16057,mandelspån,"Sötmandel Spån",2947
+16242,kokböcker,Böcker,3750
+17046,"färska örter","Örter & Smaksättare",4779
+17203,chokladask,Presentchoklad,4147
+17242,matgrädde,Matlagningsgrädde,411
+18172,"kräm fräsh","Creme Fraiche",2903
+18251,"färska tomater",Tomater,160
+18457,färskkorv,"Färsk Korv",4480
+18457,färskkorv,Salsiccia,2880
+18458,kötthalt,"Färsk Korv",4480
+18458,kötthalt,Salsiccia,2880
+18459,"hög kötthalt","Färsk Korv",4480
+18459,"hög kötthalt",Salsiccia,2880
+19121,kalkonpålägg,"Kalkon Pålägg",3734
+20099,hönsfärs,Kycklingfärs,1410
+20894,viktnedgång,Dietartiklar,4018
+20978,"prickig korv",Medwurst,2286
+20981,prickikorv,Medwurst,2286
+24105,blöjjor,Blöjor,54
+24777,"kvibille präst® 17%",Prästost,61
+24780,limesaft,Lime,790
+24783,limeskal,Lime,790
+24789,anisfrö,Anis,1834
+24798,äggula,Ägg,107
+25443,portobello,Portabellosvamp,4893
+26103,klämpåsar,Barnsmoothies,4676
+26106,klämmisar,Barnsmoothies,4676
+27249,fiskfiléer,Torsk,149
+27252,"vita fiskfiléer",Torsk,149
+27645,"räkor utan skal","Räkor i Lake",2128
+30966,bubbel,"Alkoholfritt vin",4378
+31356,"soppa ",Soppor,454
+31698,handduk,Kökshandduk,5175
+31701,handdukar,Kökshandduk,5175
+32361,blåmögelost,Ädelost,4078
+32361,blåmögelost,Gorgonzola,685
+32361,blåmögelost,Roquefort,3035
+32535,huvudvärk,"Feber & Värk",5496
+32682,bus,"Brun utan sol",5187
+32991,böcker,Barnböcker,5211
+34382,"Orientalisk Curry",Curry,1274
+35839,handdiskmedel,Diskmedel,3966
+36487,sötsur,"Sweet Chilisås",4186
+36496,tacoost,"Riven Texmexost",562
+36499,"taco ost","Riven Texmexost",562
+37267,"pads tops tandkräm tvål sallad gullök rödlök vitlök sallad paprika banan diskmedel disktabletter toalettpapper hushållspapper värmeljus pizzakit majs champinjoner ketchup havrefras honung mjöl ",Bomullsrondeller,1702
+38254,"Arla Köket turkisk meze matyoghurt","Matlagningsyoghurt Turkisk",3472
+38447,wague,Wagyu,5447
+38449,vagye,Wagyu,5447
+38451,wagy,Wagyu,5447
+38453,waggy,Wagyu,5447
+38455,waggu,Wagyu,5447
+38457,vagy,Wagyu,5447
+38535,västerbottenspaj,Västerbottenspaj,5454
+38538,västerbottenpaj,Västerbottenspaj,5454
+38559,barntandborste,Barntandborstar,4332
+39039,kornell,"Grovt bröd & Kavring",3131
+39042,"lejonet & björnen",Paketglass,3322
+39045,middag,Portionsrätter,3293
+39048,kvällsmål,Portionsrätter,3293
+39051,nattamat,Portionsrätter,3293
+39054,vickning,Portionsrätter,3293
+39057,lättlagat,Portionsrätter,3293
+39060,snabbmat,Portionsrätter,3293
+39063,micromat,Portionsrätter,3293
+39066,mikromat,Portionsrätter,3293
+39972,serat,Cerat,1063
+39987,läppbalsam,Cerat,1063
+39990,lypsyl,Cerat,1063
+39993,läppcerat,Cerat,1063
+40176,"pressade vitlöksklyftor",Vitlök,623
+40179,"krossade tomater á 400 g","Krossade Tomater",2578
+40182,"burk krossade tomater á 400 g","Krossade Tomater",2578
+40185,"á 400 g","Krossade Tomater",2578
+40341,munsalva,Cerat,1063
+41842,kosttillskott,"Hälsa & Träning",3831
+42157,tvättsvamp,Rengöringssvamp,3964
+42571,tändvätska,"Braständare & Tändblock",5659
+42673,spättafile,Rödspättafile,1708
+42676,spättafileer,Rödspättafile,1708
+43612,"potatis färsk",Färskpotatis,1527
+43762,kinakål,Salladskål,174
+44359,matbröd,Bröd,3807
+44359,matbröd,"Bröd & Bageri",15
+44362,iskaffe,"Kaffe Latte Drickfärdig",3452
+46851,zaq123,Banan,164
+47249,kulörtvättmedel,Kulörtvätt,1211
+47252,"tvättmedel kulör",Kulörtvätt,1211
+47258,långfranska,"Skivat bröd",5371
+47768,"pizza botten","Färdiga pizzabottnar",5692
+47990,dillstjälkar,"Dill - färsk",2462
+48365,pumptvål,Tvålpumpar,1026
+48368,tvålpump,Tvålpumpar,1026
+50096,fläsklägg,Fläskkött,100
+50099,juce,Juice,231
+50102,ljung,Blommor,235
+50111,dillchips,"Chips med smak",5795
+50114,"smaksatta chips","Chips med smak",5795
+50138,matis,"Långkornigt Ris",2832
+50141,matris,"Långkornigt Ris",2832
+50150,robios,"Rött te",1442
+50153,roibos,"Rött te",1442
+51809,matfett,"Smör & Margarin",2996
+51812,kryddsmör,Aromsmör,517
+51824,proteinpulver,"Protein & Aminosyror",4265
+51827,tacmix,"Taco Kryddmix",1699
+51830,tacomix,"Taco Kryddmix",1699
+51833,fruktpåsar,"Frukt- och Grönsakskassar",3934
+51836,ketcup,Tomatketchup,328
+51839,matkorn,"Ris & Gryn",25
+51842,sockerbitar,Bitsocker,1588
+51845,sockerbit,Bitsocker,1588
+51848,"fylld pasta","Färsk pasta",3052
+51941,sardellfiléer,Sardeller,593
+53096,fiskgryta,Fiskgrytbitar,5819
+53099,"fisk bitar",Fiskgrytbitar,5819
+53102,fiskbitar,Fiskgrytbitar,5819
+53735,sojagrädde,"Växtbaserad gräddersättning",4466
+53738,blandsallad,Salladsmix,2197
+53741,grenadin,Granatäppeljuice,3163
+53744,pappersduk,Dukar,5278
+53747,engångsduk,Dukar,5278
+53750,plastsked,Engångsbestick,3710
+53861,hårborste,Stylingverktyg,5097
+58686,fänkålsfrön,"Fänkål Krydda",2884
+60393,"Barilla Pesto Alla Genovese","Pesto Grön",3588
+63142,Schampoo,Schampo,990
+63721,"Sweet Chilisås","Sweet Chili",1892
+64882,favabönor,Bondbönor,3542
+65377,"jalapeno färsk","Jalapeno Färsk",4320
+65506,"Vegetariska Hyllan","Vegetariska Schnitzlar",5983
+65875,barnkalas_presenter,Barnböcker,5211
+65875,barnkalas_presenter,Barnskivor,5727
+65875,barnkalas_presenter,"Leksaker & Spel",5019
+65875,barnkalas_presenter,"Leksaker för små barn",5721
+67204,"wine finder","Vin från Winefinder",5849
+67207,vinefinder,"Vin från Winefinder",5849
+67210,"vin från winefinder","Vin från Winefinder",5849
+67213,winfinder,"Vin från Winefinder",5849
+67795,Leksaker,Lego,5214
+67951,Cashewnöt,"Cashewnötter Naturella",3753
+69976,"Vegetabilisk olja",Rapsolja,1199
+69976,"Vegetabilisk olja",Olivolja,649
+71838,grillsås,BBQ-Sås,1115
+72822,grillkött,"Färdigmarinerat Fläskkött",6034
+72822,grillkött,"Färdigmarinerat Nötkött",6052
+73519," kycklingbröstfilé","Kycklingfilé Färsk",5980
+73582,covfefe,Kaffe,45
+73582,covfefe,Bryggkaffe,710
+73921,kycklingbröstfilé,"Kyckling Minutfilé",5843
+74590,"grillad kyckling","Kyckling Grillad",4229
+76744,vetemjöl,Vetemjöl,708
+77395,fläskkarré,"Fläskkarré Skivor",917
+79834,lammkött,Lamm,82
+84685,huvudvärkstabletter,"Feber & Värk",5496
+84733,"malen spiskummin",Spiskummin,1864
+87916,"chilipeppar färsk","Chilipeppar Röd",639
+91318,majschips,Tortillachips,4651
+94720,engångsartiklar,"Servetter, Ljus & Engångsartiklar",28
+97447,"Butiksbakat bröd",Bageribröd,5374
+98716,"barn tandkräm",Barntandkräm,4298
+101770,"hela fänkålsfrön","Fänkål Krydda",2884
+103006,kallröktlax,"Lax Kallrökt",2300
+103015,hårborstar,Stylingverktyg,5097

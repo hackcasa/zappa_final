@@ -1,0 +1,9 @@
+{% extends "navigation.html" %}
+{% load filter %}
+{% block main %}
+
+<h2>Product recent changes</h2>
+{% include "web/product_recent_changes_snippet.html" %}
+
+{% include "web/pagination-nav.html" %}
+{% endblock %}

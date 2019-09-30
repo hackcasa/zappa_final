@@ -1,0 +1,19 @@
+{% extends "navigation.html" %}
+{% load filter %}
+{% block main %}
+<div class="row">
+    <div class="col-12">
+        <h1 class="d-inline-block">MerchantArticle {{ merchantarticle.merchant_name }} -
+            {{ merchantarticle.external_id }}</h1>
+        <a href="/merchantarticle/edit/{{ merchantarticle.id }}/">Edit</a>
+    </div>
+
+    <div class="col-8">
+        <table class="table table-striped">
+            {{ merchantarticle|as_table:"article_id" }}
+        </table>
+    </div>
+</div>
+
+
+{% endblock %}

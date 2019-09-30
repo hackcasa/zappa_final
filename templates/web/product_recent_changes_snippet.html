@@ -1,0 +1,45 @@
+<div class="col-md-12">
+    <table class="table table-striped ">
+        <thead>
+            <tr>
+                <th>GTIN</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Changed By</th>
+                <th>Changed date</th>
+            </tr>
+        </thead>
+        {% if form %}
+        <form action="/product/recent" method="GET">
+            <tr>
+                <th>{{ form.gtin }}</th>
+                <th>{{ form.product_name }}</th>
+                <th>{{ form.changed_type }}</th>
+                <th>{{ form.changed_by }}</th>
+                <th><input class="float-right" type="submit" value="Filter"></th>
+            </tr>
+            {% if page %}
+            <input type="hidden" name="page" value="{{ page }}">
+            {% endif %}
+        </form>
+        {% endif %}
+
+        {% for pc in pagelist %}
+        <tr>
+            <td>{{ pc.article.gtin }}</td>
+            <td>
+                {% if pc.get_history_type_display == "Deleted" %}
+                {{ pc.history_object.name|default:pc.article.name }}
+                {% else %}
+                <a href="/product/view/{{ pc.article.gtin }}/">
+                    {{ pc.history_object.name|default:pc.article.name }}
+                </a>
+                {% endif %}
+            </td>
+            <td>{{ pc.get_history_type_display }}</td>
+            <td>{{ pc.history_user.first_name }} {{ pc.history_user.last_name }}</td>
+            <td>{{ pc.history_date|date:"Y-m-d H:i:s" }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>

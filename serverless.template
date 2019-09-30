@@ -1,0 +1,24 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Transform": "AWS::Serverless-2016-10-31",
+  "Description": "An AWS Serverless Application created with mhdev-cli",
+
+  "Resources": {
+
+    "deveshZappaDb": {
+        "Type": "AWS::RDS::DBInstance",
+        "Properties": {
+            "AllocatedStorage": "100",
+            "DBInstanceClass": "db.t3.small",
+            "Engine": "postgres",
+            "MasterUsername": "postgres",
+            "MasterUserPassword": "postgres"
+        }
+    },
+
+    "deveshZappaStatic": {
+      "Type": "AWS::S3::Bucket"
+    }
+    
+  }
+}

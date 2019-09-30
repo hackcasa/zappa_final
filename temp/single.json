@@ -1,0 +1,218 @@
+{
+   "Listed" : {
+      "s" : "2015-08-24"
+   },
+   "Gtin" : {
+      "s" : "5015821127794"
+   },
+   "Category" : {
+      "s" : "MÖ PASTA RIS MOS"
+   },
+   "Availability" : {
+      "m" : {
+         "Status" : {
+            "s" : "Available"
+         }
+      }
+   },
+   "Version" : {
+      "s" : "f45d420b-4d01-4cc7-a0e9-38ad33c7a1d5"
+   },
+   "Dimensions" : {
+      "m" : {
+         "WeightG" : {
+            "n" : "2020"
+         },
+         "HeightMM" : {
+            "n" : "310"
+         },
+         "LengthMM" : {
+            "n" : "65"
+         },
+         "VolumeDM2" : {
+            "n" : "2.72"
+         },
+         "WidthMM" : {
+            "n" : "135"
+         }
+      }
+   },
+   "CreationDate" : {
+      "s" : "2017-11-08T06:28:44.877Z"
+   },
+   "ProductName" : {
+      "s" : "HABIB BASMATI 2KG"
+   },
+   "ExternalIds" : {
+      "m" : {
+         "Bergendahls" : {
+            "s" : "5227749"
+         }
+      }
+   },
+   "MerchantName" : {
+      "s" : "Bergendahls"
+   },
+   "MerchantAndExternalId" : {
+      "s" : "Bergendahls-5227749"
+   },
+   "DeListed" : {
+      "s" : "9999-12-31"
+   },
+   "ShippingUnits" : {
+      "l" : [
+         {
+            "m" : {
+               "Preferred" : {
+                  "n" : "1"
+               },
+               "Dimensions" : {
+                  "m" : {
+                     "VolumeDM2" : {
+                        "n" : "15.17"
+                     },
+                     "LengthMM" : {
+                        "n" : "370"
+                     },
+                     "WidthMM" : {
+                        "n" : "200"
+                     },
+                     "WeightG" : {
+                        "n" : "12340"
+                     },
+                     "HeightMM" : {
+                        "n" : "205"
+                     }
+                  }
+               },
+               "ArticlesPerShippingUnit" : {
+                  "n" : "6"
+               },
+               "Type" : {
+                  "s" : "Kartong"
+               },
+               "Gtin" : {
+                  "s" : "5015821145644"
+               }
+            }
+         },
+         {
+            "m" : {
+               "ArticlesPerShippingUnit" : {
+                  "n" : "144"
+               },
+               "Dimensions" : {
+                  "m" : {
+                     "WeightG" : {
+                        "n" : "0"
+                     },
+                     "HeightMM" : {
+                        "n" : "0"
+                     },
+                     "LengthMM" : {
+                        "n" : "0"
+                     },
+                     "VolumeDM2" : {
+                        "n" : "0"
+                     },
+                     "WidthMM" : {
+                        "n" : "0"
+                     }
+                  }
+               },
+               "Type" : {
+                  "s" : "Lav"
+               },
+               "Preferred" : {
+                  "n" : "0"
+               }
+            }
+         },
+         {
+            "m" : {
+               "Type" : {
+                  "s" : "Pall"
+               },
+               "Gtin" : {
+                  "s" : "35015821127795"
+               },
+               "Dimensions" : {
+                  "m" : {
+                     "WeightG" : {
+                        "n" : "765400"
+                     },
+                     "HeightMM" : {
+                        "n" : "1175"
+                     },
+                     "VolumeDM2" : {
+                        "n" : "1128"
+                     },
+                     "LengthMM" : {
+                        "n" : "1200"
+                     },
+                     "WidthMM" : {
+                        "n" : "800"
+                     }
+                  }
+               },
+               "ArticlesPerShippingUnit" : {
+                  "n" : "360"
+               },
+               "Preferred" : {
+                  "n" : "0"
+               }
+            }
+         },
+         {
+            "m" : {
+               "ArticlesPerShippingUnit" : {
+                  "n" : "1"
+               },
+               "Dimensions" : {
+                  "m" : {
+                     "WidthMM" : {
+                        "n" : "135"
+                     },
+                     "VolumeDM2" : {
+                        "n" : "2.72"
+                     },
+                     "LengthMM" : {
+                        "n" : "65"
+                     },
+                     "HeightMM" : {
+                        "n" : "310"
+                     },
+                     "WeightG" : {
+                        "n" : "2020"
+                     }
+                  }
+               },
+               "Gtin" : {
+                  "s" : "5015821127794"
+               },
+               "Type" : {
+                  "s" : "Styck"
+               },
+               "Preferred" : {
+                  "n" : "0"
+               }
+            }
+         }
+      ]
+   },
+   "CostPrice" : {
+      "n" : "41.1"
+   },
+   "OrderRoute" : {
+      "s" : "L"
+   },
+   "LastModifiedDate" : {
+      "s" : "2018-04-04T07:43:01.075Z"
+   },
+   "BrandName" : {
+      "s" : "HABIB"
+   },
+   "AvailabilityStatus" : {
+      "s" : "Available"
+   }
+}

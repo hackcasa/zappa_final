@@ -1,0 +1,32 @@
+{% load filter %}
+<div class="col-md-12 inline-block">
+    <nav>
+        <ul class="pagination float-left">
+            <li class="page-item">
+                {% if pagelist.has_previous %}
+                    <a class="page-link" href="?page=1&{{ parameters|pop_encode:'page' }}">&laquo; first</a></li>
+                    <li class="page-item"><a class="page-link" href="?page={{ pagelist.previous_page_number}}&{{ parameters|pop_encode:'page' }}">Previous</a>
+                {% endif %}
+            </li>
+                        <li class="page-item">
+                <a class="page-link" href="#">Page {{ pagelist.number  }} of {{ pagelist.paginator.num_pages }}</a>
+            </li>
+                <li class="page-item">
+                {% if pagelist.has_next %}
+                    <a class="page-link" href="?page={{ pagelist.next_page_number }}&{{ parameters|pop_encode:'page' }}">Next</a></li>
+                    <li class="page-item"> <a class="page-link" href="?page={{ pagelist.paginator.num_pages  }}&{{ parameters|pop_encode:'page' }}">last&raquo;</a>
+                {% endif %}
+            </li>
+                        </ul>
+    </nav>
+    <nav>
+        <ul class="pagination float-right">
+            <li class="page-item">
+                <a class="page-link" href="#"> Per Page </a>
+            </li>
+            {% for size in pagesizes %}
+                <li><a class="page-link" href="?pagesize={{ size }}&{{ parameters|pop_encode:'pagesize' }}">{{ size }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>

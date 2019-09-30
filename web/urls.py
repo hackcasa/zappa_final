@@ -1,0 +1,196 @@
+"""pim URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/2.1/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path('', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+"""
+from . import views
+from django.urls import path, re_path
+from django.conf.urls import url, include
+
+urlpatterns = [
+    path(
+        '',
+        views.home,
+        name='home'),
+    path(
+        'article/',
+        views.article_search,
+        name='article_search'),
+    re_path(
+        '^article/(?P<gtin>[0-9]+)/',
+        views.article_details,
+        name='article_details'),
+    re_path(
+        '^article/history/(?P<gtin>[0-9]+)/',
+        views.article_history,
+        name='article_history'),
+    re_path(
+        '^article/edit/(?P<gtin>[0-9]+)/',
+        views.article_edit,
+        name='article_edit'),
+    re_path(
+        '^article/allergens/edit/(?P<gtin>[0-9]+)/',
+        views.article_allergens_edit,
+        name='article_allergens_edit'),
+    path(
+        'article/add/',
+        views.article_add,
+        name='article_add'),
+    re_path(
+        'article-image/history/(?P<id>[0-9]+)/',
+        views.article_image_history,
+        name='product_image_history'),
+    path(
+        'product/',
+        views.product_index,
+        name='product_index'),
+    path(
+        'product/search',
+        views.product_search,
+        name='product_search'),
+    path(
+        'product/recent/',
+        views.product_recent,
+        name='product_recent'),
+    path(
+        'product/incomplete/',
+        views.product_incomplete,
+        name='product_incomplete'),
+    path(
+        'product/import/',
+        views.product_import,
+        name='product_import'),
+    path(
+        'product/import/csv/',
+        views.product_import_csv,
+        name='product_import'),
+    path(
+        'product/add/gtin/',
+        views.product_add_gtin,
+        name='product_add_gtin'),
+    re_path(
+        '^product/view/(?P<gtin>[0-9]+)/$',
+        views.product_view,
+        name='product_view'),
+    re_path(
+        '^product/edit/(?P<gtin>[0-9]+)/$',
+        views.product_edit,
+        name='product_edit'),
+    re_path(
+        '^product/allergens/edit/(?P<gtin>[0-9]+)/$',
+        views.product_allergens_edit,
+        name='product_allergens_edit'),
+    re_path(
+        '^product/allergens/copy/(?P<gtin>[0-9]+)/$',
+        views.product_allergens_copy,
+        name='product_allergens_copy'),
+    re_path(
+        'product/history/(?P<gtin>[0-9]+)/',
+        views.product_history,
+        name='product_history'),
+    re_path(
+        'product-detail/edit/(?P<id>[0-9]+)/',
+        views.product_detail_edit,
+        name='product_detail_edit'),
+    re_path(
+        'product/delete/(?P<gtin>[0-9]+)/',
+        views.product_delete,
+        name='product_delete'),
+    re_path(
+        'product/tags/edit/(?P<gtin>[0-9]+)/',
+        views.product_tags_edit,
+        name='product_tags_edit'),
+    re_path(
+        'product-image/history/(?P<id>[0-9]+)/',
+        views.product_image_history,
+        name='product_image_history'),
+    re_path(
+        'product-image/add/(?P<gtin>[0-9]+)/',
+        views.product_image_add,
+        name='product_image_add'),
+    re_path(
+        'product-image/toogle-active/(?P<id>[0-9]+)/',
+        views.product_image_toggle_active,
+        name='product_image_toggle_active'),
+    re_path(
+        'product-image/main/(?P<id>[0-9]+)/',
+        views.product_image_main,
+        name='product_image_main'),
+    re_path(
+        'product-image/delete/(?P<id>[0-9]+)/',
+        views.product_image_delete,
+        name='product_image_delete'),
+    path(
+        'merchantarticle/',
+        views.merchantarticle_search,
+        name='merchantarticle_search'),
+    re_path(
+        'merchantarticle/(?P<id>[0-9]+)/',
+        views.merchantarticle,
+        name='merchantarticle'),
+    path(
+        'merchantarticle/add/',
+        views.merchantarticle_add,
+        name='merchantarticle_add'),
+    re_path(
+        'merchantarticle/edit/(?P<id>[0-9]+)/',
+        views.merchantarticle_edit,
+        name='merchantarticle_edit'),
+    path(
+        'tag/',
+        views.tag_search,
+        name='tag_search'),
+    re_path(
+        'tag/(?P<id>[0-9]+)/',
+        views.tag,
+        name='tag'),
+    path(
+        'tag/add/',
+        views.tag_add,
+        name='tag_add'),
+    re_path(
+        'tag/edit/(?P<id>[0-9]+)/',
+        views.tag_edit,
+        name='tag_edit'),
+    path(
+        'productcategory/',
+        views.productcategory_search,
+        name='productcategory_search'),
+    re_path(
+        '^productcategory/(?P<id>[0-9]+)/',
+        views.productcategory_details,
+        name='productcategory_details'),
+    path(
+        'productcategory/add/',
+        views.productcategory_add,
+        name='productcategory_add'),
+    re_path(
+        'productcategory/tags/edit/(?P<id>[0-9]+)/',
+        views.productcategory_tags_edit,
+        name='productcategory_tags_edit'),
+    re_path(
+        'productcategory/edit/(?P<categoryid>[0-9]+)/',
+        views.productcategory_edit,
+        name='productcategory_edit'),
+    url(
+        r'^auth/',
+        include('social_django.urls', namespace='social')),
+    path(
+        'login/',
+        views.login,
+        name="login"),
+    path(
+        'logout/',
+        views.logout,
+        name="logout")
+]

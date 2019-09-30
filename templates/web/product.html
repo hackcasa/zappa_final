@@ -1,0 +1,53 @@
+{% extends "navigation.html" %}
+{% load filter %}
+{% block main %}
+
+<div class="row">
+    <div class="col-md-4">
+        <p><em># of matching products: {{ products_length }}</em></p>
+
+        <form action="/product/search" method="get">
+            {% csrf_token %}
+            <table class="table">
+                {{ form.as_table }}
+                <tr>
+                    <td><input type="submit" class="btn btn-primary" value="Search"></td>
+                    <td><a href="{% url 'product_index' %}" class="btn btn-secondary">Reset</a></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div class="col-md-8">
+        <h3>Product Search</h3>
+        <table class="table table-striped table-condensed">
+            <thead class="sticky">
+                <th>ProductID</th>
+                <th>GTIN</th>
+                <th>Name</th>
+                <th>Brand Name</th>
+                <th>Image</th>
+                <th>Source</th>
+                <th>Last Modified</th>
+            </thead>
+            <tbody>
+                {% for a in pagelist %}
+                <tr>
+                    <td>{{ a.product_id }}</td>
+                    <td><a href="/product/view/{{ a.article.gtin }}/">{{ a.article.gtin }}</a></td>
+                    <td>{{ a.name|default:a.name }}</td>
+                    <td>{{ a.article.brand_name }}</td>
+                    <td>{{ a.productimage_set.first|image_or_default:"small" }}</td>
+                    <td>{{ a.article.source }}</td>
+                    <td>{{ a.last_modified }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>   
+        
+        {% include "web/pagination-nav.html" %}
+       
+    </div>
+</div>
+
+{% endblock %}

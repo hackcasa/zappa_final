@@ -1,0 +1,51 @@
+{% extends "navigation.html" %}
+{% load filter %}
+{% block main %}
+<div class="row">
+    <div class="col-12">
+        <h1>Allergens for {{ product.name|default:product.article.name }} ({{product.article.gtin}})</h1>
+    </div>
+    <div class="col-md-6">
+        <h2>Allergens</h2>
+        <div class="allergens-edit set">
+            <ul class="list-group list-group-flush allergen-list">
+                {% for allergen in allergens %}
+                <li class="list-group-item d-flex justify-content-between">
+                    {{ allergen|allergen_text }}
+                    <a href="" class="remove-allergen" data-type-code="{{ allergen.type_code }}"
+                        data-containment-level="{{ allergen.containment_level_code }}">Remove</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <h2>Add new allergen</h2>
+        <div class="add-allergen">
+            <div class="add-allergen-form">
+                {% for field in add_allergen_form %}
+                {{ field }}
+                {% endfor %}
+            </div>
+            <button type="button" class="btn btn-primary add-allergen">Add</button>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <form class="form article-edit-form" method="post" action="/product/allergens/edit/{{ product.article.gtin }}/">
+            <table class="table table-condensed">
+                {% csrf_token %}
+                {{ form.as_table }}
+                <tr>
+                    <td>
+                        <input type="submit" class="btn btn-primary submit" value="Save">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+{% endblock %}

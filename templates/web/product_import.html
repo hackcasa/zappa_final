@@ -1,0 +1,100 @@
+{% extends "navigation.html" %}
+
+{% block main %}
+<div>
+    {% if request_import %}
+    <div class="col-md-8">
+        <h4>Valid articles ready for import
+            <small>({{ valid_articles|length }} of requested {{ requested_articles|length }})</small>
+        </h4>
+        <form action="/product/add/gtin/" method="post">
+            {% csrf_token %}
+            <table class="table table-striped">
+                {% for va in valid_articles %}
+                <tr>
+                    <td>
+                        {{ va.gtin }}
+                    </td>
+                    <td>{{ va.name }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+            <input type="hidden" name="article_gtin" value="{{ valid_articles_gtin|join:',' }}">
+            <input type="submit" class="btn btn-primary" value="Import" {{ valid_articles|length_is:'0'|yesno:'disabled="disabled",'}}>
+        </form>
+    </div>
+
+    {% if already_imported %}
+    <div class="col-md-8">
+        <h4>Already imported
+            <small>({{ already_imported|length }} of requested {{ requested_articles|length }})</small>
+        </h4>
+        <table class="table table-condensed">
+            {% for a in already_imported %}
+            <tr>
+                <td>{{ a.gtin }}</td>
+                <td>{{ a.name }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% endif %}
+
+    {% if not_consumer_unit %}
+    <div class="col-md-8">
+        <h4>Article is not consumer unit
+            <small>({{ not_consumer_unit|length }} of requested {{ requested_articles|length }})</small>
+        </h4>
+        <table class="table table-condensed">
+            {% for ncu in not_consumer_unit %}
+            <tr>
+                <td>{{ ncu.gtin }}</td>
+                <td>{{ ncu.name }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% endif %}
+
+    {% if not_found %}
+    <div class="col-md-8">
+        <h4>Not found
+            <small>({{ not_found|length }} of requested {{ requested_articles|length }})</small>
+        </h4>
+        <table class="table table-condensed">
+            {% for a in not_found %}
+            <tr>
+                <td>{{ a }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% endif %}
+
+    {% else %}
+    <div class="row">
+        <div class="col-md-3">
+            <h4>Manual Import</h4>
+            <form action="/product/import/" method="post">
+                {% csrf_token %}
+                <textarea class="w-100" name="gtin_input"
+                    placeholder="Just paste the gtin you which to import, separated by either newline or space or comma(,)."></textarea>
+                <input type="submit" class="btn btn-primary" value="Import">
+            </form>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="csv-import col-sm-12">
+            <h4>CSV Import</h4>
+            <a href="{{ csv_template }}">Download CSV template</a>
+            <form action="/product/import/csv/" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ import_csv_form.as_p }}
+                <input class="d-block btn btn-primary" type="submit" value="Import CSV">
+            </form>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

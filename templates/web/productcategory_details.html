@@ -1,0 +1,35 @@
+{% extends "navigation.html" %}
+{% load filter %}
+{% block main %}
+<div class="row">
+    <div class="col-md-8">
+        <div>
+            <h2 class="d-inline-block">Category {{ category.name }}</h2>
+            <a href="/productcategory/edit/{{ category.id }}/">Edit</a>
+            <table class="table table-striped">
+                {{ category|as_table }}
+            </table>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="tags">
+            <h4 class="d-inline-block">Tags</h4>
+            <a href="/productcategory/tags/edit/{{ category.id }}/">Edit</a>
+            <div>
+                {% for tag in category.tags.all %}
+                <span class="badge badge-primary">{{ tag.name }}</span>
+                {% empty %}
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="font-italic text-muted">No tags</p>
+                    </li>
+                </ul>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,347 @@
+{% extends "navigation.html" %}
+{% load filter %}
+
+{% block main %}
+
+<div class="product-view">
+    <div class="row">
+        <div class="col-md-8 float-left">
+            <h4 class="panel-heading"> Product (Mathem specific)<small><a
+                        href="/product/edit/{{ product.article.gtin }}/">edit</a> </small></h4>
+            <a href="/product/history/{{ product.article.gtin }}">History</a>
+            <table class="table table-striped">
+                <tr>
+                    <td>ProductID</td>
+                    <td>{{ product.product_id }}</td>
+                </tr>
+                <tr>
+                    <td>GTIN</td>
+                    <td>{{ product.article.gtin }}</td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td class="{{ product.name|yesno:"mathem_changed,original" }}">
+                        {{ product.name|default:product.article.name  }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Created</td>
+                    <td>{{ product.creation_date|date:"Y-m-d H:i:s" }}</td>
+                </tr>
+                <tr>
+                    <td>Last modified</td>
+                    <td>{{ product.last_modified|date:"Y-m-d H:i:s" }}</td>
+                </tr>
+                <tr>
+                    <td>Brand Name</td>
+                    <td class="{{ product.brand_name|yesno:"mathem_changed,original" }}">
+                        {{ product.brand_name|default:product.article.brand_name }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Product Description</td>
+                    <td class="{{ product.description|yesno:"mathem_changed,original" }}">
+                        {{ product.description|default:product.article.description }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marketing Message</td>
+                    <td class="{{ product.marketing_message|yesno:"mathem_changed,original" }}">
+                        {{ product.marketing_message|default:product.article.marketing_message }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nutrition</td>
+                    <td class="{{ product.nutrition_description|yesno:"mathem_changed,original" }}">
+                        {{ product.nutrition_description|default:product.article.nutrition_description }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Allergen Statement</td>
+                    <td class="{{ product.allergen_statement|yesno:"mathem_changed,original" }}">
+                        {{ product.allergen_statement|default:product.article.allergen_statement }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ingredient</td>
+                    <td class="{{ product.ingredient_description|yesno:"mathem_changed,original" }}">
+                        {{ product.ingredient_description|default:product.article.ingredient_description }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Origin</td>
+                    <td class="{{ product.ingredient_description|yesno:"mathem_changed,original" }}">
+                        {{ product.get_origin_display|default:product.article.get_origin_display }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Product category</td>
+                    <td>
+                        {{ product.product_category }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Recycle Fee <small class="text-muted font-italic">(SEK)</small></td>
+                    <td class="{{ product.recycle_fee|yesno:"mathem_changed,original" }}">
+                        {{ product.recycle_fee|default:product.article.recycle_fee }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>VAT <small class="text-muted font-italic"> % </small></td>
+                    <td class="{{ product.vat|yesno:"mathem_changed,original" }}">
+                        {{ product.vat|default:product.article.vat }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fishing Zone</td>
+                    <td class="{{ product.fishing_zone|yesno:"mathem_changed,original" }}">
+                        {{ product.get_fishing_zone_display|default:product.article.get_fishing_zone_display }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Adult Product</td>
+                    <td class="{{ product.adult_product|yesno:"mathem_changed,original" }}">
+                        {{ product.adult_product|default:product.article.adult_product }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Net Content</td>
+                    <td class="{{ product.net_content|yesno:"mathem_changed,original" }}">
+                        {{ product.net_content|default:product.article.net_content }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Net Content Unit Code</td>
+                    <td class="{{ product.net_content_unit_code|yesno:"mathem_changed,original" }}">
+                        {{ product.net_content_unit_code|default:product.article.net_content_unit_code }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Weight <small class="text-muted font-italic">(g)</small></td>
+                    <td class="{{ product.weight_g|yesno:"mathem_changed,original" }}">
+                        {{ product.weight_g|default:product.article.weight_g }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Height <small class="text-muted font-italic">(mm)</small></td>
+                    <td class="{{ product.height_mm|yesno:"mathem_changed,original" }}">
+                        {{ product.height_mm|default:product.article.height_mm }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Length <small class="text-muted font-italic">(mm)</small></td>
+                    <td class="{{ product.length_mm|yesno:"mathem_changed,original" }}">
+                        {{ product.length_mm|default:product.article.length_mm }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Depth <small class="text-muted font-italic">(mm)</small></td>
+                    <td class="{{ product.width_mm|yesno:"mathem_changed,original" }}">
+                        {{ product.width_mm|default:product.article.width_mm }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Volume <small class="text-muted font-italic">(dm³)</small></td>
+                    <td class="{{ product.volume_dm3|yesno:"mathem_changed,original" }}">
+                        {{ product.volume_dm3|default:product.article.volume_dm3 }}
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col-md-3 float-left">
+            <div class="validation">
+                <h4>Validation</h4>
+                <table class="table table-striped">
+                    <tr>
+                        <td>Image:</td>
+                        <td class="text-{{ product.valid_image|yesno:'success,danger' }}">
+                            <i class="material-icons">{{ product.valid_image|yesno:'check,close' }}</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Brand:</td>
+                        <td class="text-{{ product.valid_brand|yesno:'success,danger' }}">
+                            <i class="material-icons">{{ product.valid_brand|yesno:'check,close' }}</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Price:</td>
+                        <td class="text-{{ product.valid_price|yesno:'success,danger' }}">
+                            <i class="material-icons">{{ product.valid_price|yesno:'check,close' }}</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>VAT:</td>
+                        {% if product.article.vat in valid_vats %}
+                        <td class="text-success">
+                            <i class="material-icons">check</i>
+                        </td>
+
+
+                        {% else %}
+                        <td class="text-danger">
+                            <i class="material-icons">close</i>
+                        </td>
+                        {% endif %}
+                    </tr>
+                    <tr>
+                        <td>Weight:</td>
+                        <td class="text-{{ product.valid_weight|yesno:'success,danger' }}">
+                            <i class="material-icons">{{ product.valid_weight|yesno:'check,close' }}</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Volume:</td>
+                        <td class="text-{{ product.valid_volume|yesno:'success,danger' }}">
+                            <i class="material-icons">{{ product.valid_volume|yesno:'check,close' }}</i>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="product-details">
+                <h4 class="d-inline-block">Stores</h4>
+
+                {% if product_detail %}
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Store</th>
+                            <th>Price</th>
+                            <th>Enabled</th>
+                        </tr>
+                    </thead>
+                    {% for pd in product_detail %}
+                    <tr>
+                        <td>
+                            {{ pd.get_store_display }}
+                            <a href="/product-detail/edit/{{ pd.id }}/">Edit</a>
+                        </td>
+                        <td>{{ pd.price }}</td>
+                        <td>
+                            <i class="material-icons text-{{ pd.enabled|yesno:'success,danger' }}">
+                                {{ pd.enabled|yesno:"check,close" }}
+                            </i>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </table>
+                {% else %}
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p class="font-italic text-muted">No store details</p>
+                    </li>
+                </ul>
+                {% endif %}
+            </div>
+
+            <div class="allergens">
+                <h2 class="d-inline-block">Allergens</h2>
+                <a href="/product/allergens/edit/{{ product.article.gtin }}/">Edit</a>
+                <a href="/product/allergens/copy/{{ product.article.gtin }}/" {% if product.allergens %}
+                    onclick="return confirm('This will override current Product allergens, are you sure?');"
+                    {% endif %}>Copy</a>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <b>On Product</b>
+                        <ul class="list-group list-group-flush image-list">
+                            {% for allergen in product.allergens %}
+                            <li class="list-group-item">
+                                {{ allergen|allergen_text }}
+                            </li>
+                            {% empty %}
+                            <li class="list-group-item">
+                                <p class="font-italic text-muted">No allergens</p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <b>From Article</b>
+                        <ul class="list-group list-group-flush image-list">
+                            {% for allergen in product.article.allergens %}
+                            <li class="list-group-item">
+                                {{ allergen|allergen_text }}
+                            </li>
+                            {% empty %}
+                            <li class="list-group-item">
+                                <p class="font-italic text-muted">No allergens</p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tags">
+                <h4 class="d-inline-block">Tags</h4>
+                <a href="/product/tags/edit/{{ product.article.gtin }}/">Edit</a>
+                <div>
+                    {% for tag in product.tags.all %}
+                    <span class="badge badge-primary">{{ tag.name }}</span>
+                    {% empty %}
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p class="font-italic text-muted">No tags</p>
+                        </li>
+                    </ul>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 float-left">
+            <h4>Article Data (read only)<a href="/article/{{ product.article.gtin }}/"><small>  Go</small></a></h4>
+            <table class="table table-striped">
+                {{ product.article|as_table:"allergens" }}
+            </table>
+        </div>
+    </div>
+
+
+    <div class="row images" id="images">
+        <div class="col-md-6 float-left">
+            <h4>Images</h4>
+
+            <a class="btn btn-primary" href="/product-image/add/{{ product.article.gtin }}/">Add image</a>
+
+            <ul class="list-group list-group-flush image-list">
+                {% for image in product.productimage_set.all %}
+                <li class="list-group-item">
+                    <div class="col-md-6 float-left">
+                        {{image|image_or_default}}
+                    </div>
+                    <div class="col-md-6 float-left">
+                        <table class="table table-striped">
+                            {{image|as_table:"product_id,creation_date,gtin,order,active,main"}}
+                        </table>
+
+                        <a class="btn btn-primary"
+                            href="/product-image/toogle-active/{{ image.id }}?next={{ request.path }}#images">{{ image.active|yesno:"Deactivate,Activate" }}</a>
+
+                        {% if image.main is False %}
+                        <a class="btn btn-primary"
+                            href="/product-image/main/{{ image.id }}?next={{ request.path }}#images">Set as main
+                            image</a>
+                        {% endif %}
+                        <a class="btn btn-primary" href="/product-image/history/{{ image.id }}">History</a>
+                        <a class="btn btn-danger"
+                           href="/product-image/delete/{{ image.id }}?next={{ request.path }}#images"
+                           onclick="return confirm('This action will delete this product image, are you sure?')">Delete</a>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="col-md-4 row"><a class="btn btn-danger" href="/product/delete/{{ product.article.gtin }}/"
+            onclick="return confirm('This action will delete this product, are you sure?');">Delete Product</a></div>
+</div>
+{% endblock %}

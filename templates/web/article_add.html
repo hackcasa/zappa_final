@@ -1,0 +1,81 @@
+{% extends "navigation.html" %}
+
+{% block main %}
+<div class="row">
+    <div class="col-12">
+        <h1>Add Article</h1>
+        <div class="alert alert-warning" role="alert">
+            Only for articles that is missing from Validoo!
+        </div>
+    </div>
+
+    <div class="col-md-8">
+        <form class="form article-edit-form" method="post" action="/article/add/">
+            <table class="table table-condensed">
+                {% csrf_token %}
+                {{ form.as_table }}
+
+                <tr>
+                    <td><input type="submit" class="submit-row btn btn-primary" value="Save"></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card bg-light mb-3">
+            <div class="card-header">Information</div>
+            <div class="card-body">
+                <p>
+                    <b>How to make something we can sell:</b> <br>
+                    First create the base article using this form,
+                    this will be the product we use to make a product.
+                    When we have the base article we also need to add
+                    the related articles, if any.
+                    A related article might be a case or a pallet that
+                    we use to order the base article.
+                </p>
+                <p>
+                    For example, we want to sell product X on the site.
+                    We first add the article, using this form, to create
+                    Article X. Now we need to think about how we buy Article X,
+                    do we buy them in boxes or pallets?
+                </p>
+                <p>
+                    If we buy a case and that case has a GTIN, we add a new article
+                    (Article Y). This article is will be the case that contains, let's
+                    say 10 Article X.
+                </p>
+                <p>
+                    Now we need to add a connection from the articles we want to order and
+                    the supplier. This is done using MerchantArticles.
+                </p>
+                <p>
+                    For every article we can order, we should create a MerchantArticle.
+                    In our example, we only order the case (Article Y) so we create a
+                    MerchantArticle with this the GTIN for Atricle Y and the
+                    suppliers materialnumber.
+                </p>
+                <p>
+                    If we can order Article Y from more than
+                    one supplier we would add a MerchantArticle for each supplier, all
+                    using the same GTIN but different materialnumbers.
+                </p>
+            </div>
+        </div>
+
+        <div class="card bg-light mb-3">
+            <div class="card-header">Checklist</div>
+            <div class="card-body">
+                <ol>
+                    <li>Create base article</li>
+                    <li>Create realted articles (Cases, pallets etc.)</li>
+                    <li>Create MerchantArticles for any article we order</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

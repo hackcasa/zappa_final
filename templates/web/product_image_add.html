@@ -1,0 +1,20 @@
+{% extends "navigation.html" %}
+
+{% block main %}
+<div class="col-md-8">
+    <h4>Add image to product {{gtin}}</h4>
+
+    <form class="form" method="post" action="/product-image/add/{{ gtin }}/" enctype="multipart/form-data">
+        <table class="table table-condensed">
+            {% csrf_token %}
+            {{ form.as_table }}
+
+            <tr>
+                <td>
+                    <input type="submit" class="submit-row" value="Upload">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+{% endblock %}
