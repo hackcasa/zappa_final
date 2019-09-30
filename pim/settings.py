@@ -90,27 +90,27 @@ WSGI_APPLICATION = 'pim.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'pim',
-#         'USER': 'pim-user',
-#         'PASSWORD': 'pim-user',
-#         'HOST': 'localhost',
-#         'PORT': '',
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'pim',
-        'USER': 'postgres',
-        'PASSWORD': '2Czg8hIdrhSvn782WbPl',
-        'HOST': 'database-2.c6ryrskqjdof.us-west-2.rds.amazonaws.com',
-        'PORT': '5432',
+        'USER': 'pim-user',
+        'PASSWORD': 'pim-user',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'pim',
+#         'USER': 'postgres',
+#         'PASSWORD': '2Czg8hIdrhSvn782WbPl',
+#         'HOST': 'database-2.c6ryrskqjdof.us-west-2.rds.amazonaws.com',
+#         'PORT': '5432',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
