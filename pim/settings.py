@@ -27,7 +27,7 @@ SECRET_KEY = '(dald#^q55hsmk)$pc%zz^y86&7p8=_f#&i%!yx^%^apcn8r-_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.amazonaws.com']
+ALLOWED_HOSTS = ['.execute-api.eu-west-1.amazonaws.com']
 
 INTERNAL_IPS = ['127.0.0.1']
 
