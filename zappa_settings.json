@@ -7,7 +7,7 @@
         "s3_bucket": "zappa-pim-web-zip",
         "slim_handler": true,
         "vpc_config" : {
-            "SubnetIds": [ "subnet-b60c82ec","subnet-d43579b2" ], // use the private subnet
+            "SubnetIds": [ "subnet-b60c82ec","subnet-d43579b2" ],
             "SecurityGroupIds": [ "sg-02ecbf5459e76bb98" ]
         }
     }
