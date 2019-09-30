@@ -20,7 +20,7 @@
       "Type" : "AWS::EC2::Subnet",
       "Properties" : {
           "VpcId" : "vpc-d6c4d7b0",
-          "CidrBlock" : "10.0.0.0/24",
+          "CidrBlock" : "172.31.1.0/24",
           "AvailabilityZone" : "eu-west-1a"
       }
     },
@@ -29,7 +29,7 @@
       "Type" : "AWS::EC2::Subnet",
       "Properties" : {
           "VpcId" : "vpc-d6c4d7b0",
-          "CidrBlock" : "10.0.1.0/24",
+          "CidrBlock" : "172.31.2.0/24",
           "AvailabilityZone" : "eu-west-1a"
       }
     },

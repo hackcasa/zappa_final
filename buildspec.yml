@@ -21,4 +21,4 @@ phases:
       # - rm -rf pim_web.zip
       # - ls -lrt
       - aws cloudformation package --template-file serverless.template --s3-bucket 1221-cf-bucket --output-template-file transformed-template.json
-      - aws cloudformation deploy --template-file transformed-template.json --stack-name pim-web-no-zappa --capabilities CAPABILITY_IAM --no-fail-on-empty-changeset
+      - aws cloudformation deploy --template-file transformed-template.json --stack-name devesh-zappa-final --capabilities CAPABILITY_IAM --no-fail-on-empty-changeset
