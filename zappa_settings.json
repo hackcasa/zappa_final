@@ -2,10 +2,9 @@
     "dev": {
         "aws_region": "us-west-2",
         "django_settings": "pim.settings",
-        "profile_name": "default",
-        "project_name": "pim-web",
+        "project_name": "devesh-zappa-final",
         "runtime": "python3.7",
-        "s3_bucket": "pim-zappa-bucket",
+        "s3_bucket": "zappa-pim-web-zip",
         "slim_handler": true
     }
 }
