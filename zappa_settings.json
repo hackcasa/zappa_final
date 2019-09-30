@@ -1,6 +1,6 @@
 {
     "dev": {
-        "aws_region": "us-west-2",
+        "aws_region": "eu-west-1",
         "django_settings": "pim.settings",
         "project_name": "devesh-zappa-final",
         "runtime": "python3.7",
