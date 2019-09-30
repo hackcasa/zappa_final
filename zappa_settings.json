@@ -5,6 +5,10 @@
         "project_name": "devesh-zappa-final",
         "runtime": "python3.7",
         "s3_bucket": "zappa-pim-web-zip",
-        "slim_handler": true
+        "slim_handler": true,
+        "vpc_config" : {
+            "SubnetIds": [ "subnet-b60c82ec","subnet-d43579b2" ], // use the private subnet
+            "SecurityGroupIds": [ "sg-02ecbf5459e76bb98" ]
+        }
     }
 }
