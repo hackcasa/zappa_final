@@ -7,9 +7,9 @@ phases:
       - python -m venv venvzappa
       - . venvzappa/bin/activate
       - pip install -r requirements.txt
-      # - zappa update dev
-      - printf "y" | zappa undeploy
-      - zappa deploy dev
+      - zappa update dev
+      # - printf "y" | zappa undeploy
+      # - zappa deploy dev
       # - printf "\n\n\n\n\n" | zappa init
       # - ls -lrt
       # - zappa package dev -o pim_web.zip
