@@ -49,3 +49,4 @@ zappa
 zappa_django_utils
 django-s3-storage
 psycopg2
+mysqlclient

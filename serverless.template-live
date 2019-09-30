@@ -56,9 +56,10 @@
         "EngineVersion" : "5.6",
         "DatabaseName": "pimdb",
         "ScalingConfiguration" : {
-          "AutoPause" : "false",
+          "AutoPause" : "true",
           "MaxCapacity" : 8,
-          "MinCapacity" : 1
+          "MinCapacity" : 2,
+          "SecondsUntilAutoPause" : 1000
         },
         "MasterUsername" : "PimUsername",
         "MasterUserPassword" : "PimPassword",

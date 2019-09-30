@@ -100,17 +100,27 @@ WSGI_APPLICATION = 'pim.wsgi.application'
 # }
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'pimdb',
+#         'USER': 'postgres',
+#         'PASSWORD': 'postgres',
+#         'HOST': 'dzmwhzdyle59y6.cckbych46y21.eu-west-1.rds.amazonaws.com',
+#         'PORT': '5432',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'pim',
-        'USER': 'pim-user',
-        'PASSWORD': 'pim-user',
-        'HOST': 'localhost',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'pimdb',
+        'USER': 'admin',
+        'PASSWORD': 'adminpassword',
+        'HOST': 'aurora-test-final.cluster-cckbych46y21.eu-west-1.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
-
 
 
 # Password validation
