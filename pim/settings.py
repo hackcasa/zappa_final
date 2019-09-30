@@ -27,7 +27,7 @@ SECRET_KEY = '(dald#^q55hsmk)$pc%zz^y86&7p8=_f#&i%!yx^%^apcn8r-_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ '127.0.0.1', '.execute-api.us-west-2.amazonaws.com', ]
+ALLOWED_HOSTS = [ '127.0.0.1' ]
 
 INTERNAL_IPS = ['127.0.0.1']
 
@@ -153,7 +153,7 @@ DATETIME_FORMAT = 'Y-m-d H:i:s'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-# STATIC_URL = '/static/'
+STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
@@ -176,20 +176,4 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_AUTH_EXTRA_ARGUMENTS = {'hd': 'mathem.se'}
 
 os.environ['product-category-changes-ARN'] = 'arn:aws:sns:eu-west-1:751354400372:pim2-productcategory-testshot'
 #os.environ['product-core-sync-queue-url'] = 'https://172.17.0.2:9324/test'
-
-
- # aws config
-
-YOUR_S3_BUCKET = "pim-web-zappa-static"
-
-STATICFILES_STORAGE = "django_s3_storage.storage.StaticS3Storage"
-AWS_S3_BUCKET_NAME_STATIC = YOUR_S3_BUCKET
-
-# These next two lines will serve the static files directly 
-# from the s3 bucket
-AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % YOUR_S3_BUCKET
-STATIC_URL = "https://%s/" % AWS_S3_CUSTOM_DOMAIN
-
-# OR...if you create a fancy custom domain for your static files use:
-#AWS_S3_PUBLIC_URL_STATIC = "https://static.zappaguide.com/"
 
