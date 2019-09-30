@@ -16,6 +16,33 @@
         }
     },
 
+    "PimPublicSubnet" : {
+      "Type" : "AWS::EC2::Subnet",
+      "Properties" : {
+          "VpcId" : "vpc-d6c4d7b0",
+          "CidrBlock" : "10.0.0.0/24",
+          "AvailabilityZone" : "eu-west-1a"
+      }
+    },
+
+    "PimPrivateSubnet1" : {
+      "Type" : "AWS::EC2::Subnet",
+      "Properties" : {
+          "VpcId" : "vpc-d6c4d7b0",
+          "CidrBlock" : "10.0.1.0/24",
+          "AvailabilityZone" : "eu-west-1a"
+      }
+    },
+
+    "PimPrivateSubnet2" : {
+      "Type" : "AWS::EC2::Subnet",
+      "Properties" : {
+          "VpcId" : "vpc-d6c4d7b0",
+          "CidrBlock" : "10.0.2.0/24",
+          "AvailabilityZone" : "eu-west-1a"
+      }
+    },
+
     "deveshZappaStatic": {
       "Type": "AWS::S3::Bucket"
     }
