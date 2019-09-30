@@ -29,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-INTERNAL_IPS = ['127.0.0.1']
+INTERNAL_IPS = ['127.0.0.1', '.amazonaws.com']
 
 # Application definition
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 5000
