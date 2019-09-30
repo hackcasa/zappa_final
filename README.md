@@ -47,7 +47,7 @@ Article.objects.count()
 
 ## Local development config
 
-Create pim/local_config.py, it should contain `from pim.settings import *` and any settings you want to override.
+Create pim/local_settings.py, it should contain `from pim.settings import *` and any settings you want to override.
 Then start the server with:
 
 ```

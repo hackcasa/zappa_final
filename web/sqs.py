@@ -1,4 +1,5 @@
 import os
+import sys
 import boto3
 import json
 import logging
@@ -8,6 +9,8 @@ logger = logging.getLogger(__name__)
 
 
 def notify_product_change(product):
+    if sys.argv[0] == 'manage.py':
+        return False
     queue_url = os.environ.get('product-core-sync-queue-url')
     if not queue_url:
         logger.warning(

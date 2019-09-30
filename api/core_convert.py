@@ -147,8 +147,8 @@ def get_dynamic_property_id(key):
 
 def get_origin_id(key):
     table = {
-        752: 1, # Svensk
-        249: 2, # Fransk
+        752: 1,  # Svensk
+        249: 2,  # Fransk
         # TODO: MAP THIS ?: 3, # Afrika
         # TODO: MAP THIS ?: 4, # Grekiskt
         # TODO: MAP THIS ?: 5, # Indien
@@ -231,6 +231,7 @@ def get_origin_id(key):
     }
     return table[key] if key in table else None
 
+
 def convert_attributes(product, detail=None):
     result = []
 
@@ -286,13 +287,46 @@ def convert_dynamic_properties(product):
                                 convert_order_route_from_product_type(product.product_type)),
         create_dynamic_property('BDMaterialNumber',
                                 product.prefered_merchantarticle.external_id if product.prefered_merchantarticle else None),
+        create_dynamic_property('SupplierArticleNumber',
+                                product.prefered_merchantarticle.external_id if product.prefered_merchantarticle else None),
     ]
+
+    base_unit_quantity = get_base_unit_quantity(product, product.article.gtin)
+
+    if base_unit_quantity is not None:
+        create_dynamic_property('KfpDfp', base_unit_quantity)
+
     for detail in product.product_detail.all():
         result.append(create_dynamic_property(
             'OrderFactor', 1 if detail.orderfactor else 0, detail.store))
         result.append(create_dynamic_property(
             'BDMaterialNumber', detail.prefered_merchantarticle.external_id if detail.prefered_merchantarticle else None, detail.store))
+        result.append(create_dynamic_property(
+            'SupplierArticleNumber', detail.prefered_merchantarticle.external_id if detail.prefered_merchantarticle else None, detail.store))
+
+        base_unit_quantity = get_base_unit_quantity(
+            detail, product.article.gtin)
+
+        if base_unit_quantity is not None:
+            create_dynamic_property('KfpDfp', base_unit_quantity, detail.store)
+
     return result
+
+
+def get_base_unit_quantity(product, base_unit_gtin):
+    if product.prefered_merchantarticle is not None:
+        if product.prefered_merchantarticle.article.child_gtin == base_unit_gtin:
+            return product.prefered_merchantarticle.article.quantity_of_lower_layer
+        else:
+            upper_quantity = product.prefered_merchantarticle.article.quantity_of_lower_layer
+            next_lower_article = Article.objects.filter(
+                gtin=product.prefered_merchantarticle.article.child_gtin).first()
+
+            if next_lower_article is not None:
+                if next_lower_article.child_gtin == product.article.gtin:
+                    return next_lower_article.quantity_of_lower_layer * upper_quantity
+
+    return None
 
 
 def convert_unit(validoo_unit):

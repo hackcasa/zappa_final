@@ -27,7 +27,7 @@ SECRET_KEY = '(dald#^q55hsmk)$pc%zz^y86&7p8=_f#&i%!yx^%^apcn8r-_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ '127.0.0.1' ]
+ALLOWED_HOSTS = []
 
 INTERNAL_IPS = ['127.0.0.1']
 
@@ -48,8 +48,6 @@ INSTALLED_APPS = [
     'social_django',
     'simple_history',
     'drf_yasg',
-    'zappa_django_utils',
-    'django-s3-storage'
 ]
 
 MIDDLEWARE = [
@@ -101,16 +99,6 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'pim',
-#         'USER': 'postgres',
-#         'PASSWORD': '2Czg8hIdrhSvn782WbPl',
-#         'HOST': 'database-2.c6ryrskqjdof.us-west-2.rds.amazonaws.com',
-#         'PORT': '5432',
-#     }
-# }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -176,4 +164,3 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_AUTH_EXTRA_ARGUMENTS = {'hd': 'mathem.se'}
 
 os.environ['product-category-changes-ARN'] = 'arn:aws:sns:eu-west-1:751354400372:pim2-productcategory-testshot'
 #os.environ['product-core-sync-queue-url'] = 'https://172.17.0.2:9324/test'
-

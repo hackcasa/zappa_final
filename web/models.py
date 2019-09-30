@@ -129,11 +129,6 @@ class Article(models.Model):
         return ", ".join(allergen_list)
 
     def save(self, *args, **kwargs):
-        # Save products to trigger validation check
-        products = Product.objects.filter(article__gtin=self.gtin)
-        for product in products:
-            product.save_without_historical_record()
-
         super(Article, self).save(*args, **kwargs)
 
         # Link unlinked images
@@ -145,6 +140,11 @@ class Article(models.Model):
         for image in images:
             image.article = self
             image.save()
+
+        # Save products to trigger validation check
+        products = Product.objects.filter(article__gtin=self.gtin)
+        for product in products:
+            product.save_without_historical_record()
 
     def post_delete(sender, instance, using):
         products = Product.objects.filter(article__gtin=instance.gtin)
@@ -254,6 +254,14 @@ class MerchantArticle(models.Model):
     listed = models.CharField(max_length=20, blank=True, verbose_name='Listed')
     last_date_to_order = models.CharField(
         max_length=20, blank=True, verbose_name='Last date to order')
+    price = models.FloatField(max_length=10, default=0, verbose_name="Price")
+    currency = models.CharField(max_length=5, default="SEK", verbose_name="Currency")
+    sales_price = models.FloatField(max_length=10, default=0, verbose_name="Sales Price")
+    sales_price_valid_from = models.CharField(
+        max_length=20, blank=True, verbose_name='Sales Price Valid From')
+    sales_price_valid_to = models.CharField(
+        max_length=20, blank=True, verbose_name='Sales Price Valid To')
+
     creation_date = models.DateTimeField(
         auto_now_add=True, verbose_name='Creation date')
     last_modified = models.DateTimeField(
@@ -267,9 +275,9 @@ class MerchantArticle(models.Model):
 
     def save(self, *args, **kwargs):
         self.article = Article.objects.filter(gtin=self.article_gtin).first()
+        super(MerchantArticle, self).save(*args, **kwargs)
         if self.article:
             self.save_related_products()
-        super(MerchantArticle, self).save(*args, **kwargs)
 
     def post_delete(sender, instance, using):
         products = Product.objects.filter(article__gtin=instance.article.gtin)
@@ -516,11 +524,11 @@ class ProductImage(models.Model):
         super(ProductImage, self).save(*args, **kwargs)
 
         if self.product is not None:
-            self.product.save()
+            self.product.save_without_historical_record()
 
     def post_delete(sender, instance, using):
         if instance.product is not None:
-            instance.product.save()
+            instance.product.save_without_historical_record()
 
 
 class ProductDetail(models.Model):
@@ -556,11 +564,11 @@ class ProductDetail(models.Model):
         super(ProductDetail, self).save(*args, **kwargs)
 
         if self.product is not None:
-            self.product.save()
+            self.product.save_without_historical_record()
 
     def post_delete(sender, instance, using):
         if instance.product is not None:
-            instance.product.save()
+            instance.product.save_without_historical_record()
 
     def is_tagged_as_new(self):
         if self.first_enabled is None:
