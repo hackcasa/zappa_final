@@ -4,16 +4,18 @@ phases:
     runtime-versions:
       python: 3.7
     commands:
-      - printf "y" | apt-get install python-dev python3-dev
+      - printf "y" | apt-get install python3-dev
       - printf "y" | apt-get install libmysqlclient-dev
-      # - aws cloudformation package --template-file serverless.template --s3-bucket 1221-cf-bucket --output-template-file transformed-template.json
-      # - aws cloudformation deploy --template-file transformed-template.json --stack-name devesh-zappa-final --capabilities CAPABILITY_IAM --no-fail-on-empty-changeset
+      - aws cloudformation package --template-file serverless.template --s3-bucket 1221-cf-bucket --output-template-file transformed-template.json
+      - aws cloudformation deploy --template-file transformed-template.json --stack-name devesh-zappa-final --capabilities CAPABILITY_IAM --no-fail-on-empty-changeset
       - python -m venv venvzappa
       - . venvzappa/bin/activate
-      - pip install --upgrade pip
-      - pip install -r requirements.txt
-      - pip install pymysql
-      - pip3 install mysqlclient
+      - pip3 install --upgrade pip
+      - pip3 install -r requirements.txt
+      - pip install mysql-python; 
+      - cd venvzappa/lib/python3.7/site-packages/
+      - ls -lrt
+      - cd ../../../../
       - zappa update dev
       # - printf "y" | zappa undeploy
       # - zappa deploy dev
@@ -27,6 +29,7 @@ phases:
       # - unzip -o pim_web.zip
       # - rm -rf pim_web.zip
       # - ls -lrt
+      - zappa manage dev makemigrations
       - zappa manage dev migrate
       - zappa invoke --raw dev "from django.contrib.auth.models import User; User.objects.create_superuser('admin', 'admin@mathem.se', 'admin')"
     finally:

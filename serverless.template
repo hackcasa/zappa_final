@@ -33,20 +33,6 @@
       }
     },
 
-    "ZappapgsqlDbtest": {
-        "Type": "AWS::RDS::DBInstance",
-        "Properties": {
-            "DBName" : "pimdb",
-            "AllocatedStorage": "100",
-            "DBInstanceClass": "db.t3.small",
-            "Engine": "postgres",
-            "MasterUsername": "postgres",
-            "MasterUserPassword": "postgres",
-            "DBSubnetGroupName" : {"Ref": "zappaDBSubnetGroup"},
-            "VPCSecurityGroups": [{"Ref": "ZappapgsqlSecuritygroup"}]
-        }
-    },
-
     "ZappaAuroraMysql" : {
       "Type" : "AWS::RDS::DBCluster",
       "Properties" : {

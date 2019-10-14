@@ -115,9 +115,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'pimdb',
-        'USER': 'admin',
-        'PASSWORD': 'adminpassword',
-        'HOST': 'aurora-test-final.cluster-cckbych46y21.eu-west-1.rds.amazonaws.com',
+        'USER': 'PimUsername',
+        'PASSWORD': 'PimPassword',
+        'HOST': 'pimauroracluster.cluster-cckbych46y21.eu-west-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
