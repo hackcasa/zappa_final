@@ -113,12 +113,12 @@ WSGI_APPLICATION = 'pim.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'pimdb',
         'USER': 'PimUsername',
         'PASSWORD': 'PimPassword',
-        'HOST': 'pimauroracluster.cluster-cckbych46y21.eu-west-1.rds.amazonaws.com',
-        'PORT': '3306',
+        'HOST': 'aurorapostgres.cluster-cckbych46y21.eu-west-1.rds.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
